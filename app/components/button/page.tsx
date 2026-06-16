@@ -20,7 +20,7 @@ export default function Home() {
           <Button
             ctaLabel="Click Here!"
             ctaLink={{ href: "https://www.riascureman.com", target: "_blank" }}
-            ctaStyle={{ style: "secondary" }}
+            ctaStyle={{ style: "secondary" }} ctaAria="Different aria label"
           />
           <h2>Link</h2>
           <Button

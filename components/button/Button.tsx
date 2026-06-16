@@ -28,6 +28,7 @@ export type ButtonProps = {
     style?: "primary" | "secondary";
     type?: "link" | "button";
   };
+  ctaAria?: string;
 };
 
 /**
@@ -43,13 +44,14 @@ export default function Button({
   },
 
   ctaStyle = { type: "button", style: "primary" },
+  ctaAria = ctaLabel as string,
 }: ButtonProps) {
   return (
     <Link
       className={`${(ctaStyle.type === "button" || !ctaStyle.type) && style.button} ${ctaStyle.style === "secondary" && style.isSecondary}`}
       href={ctaLink.href}
       target={ctaLink.target}
-      aria-label={ctaLabel ?? undefined}
+      aria-label={ctaAria}
     >
       {ctaLabel}
     </Link>
