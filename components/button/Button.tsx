@@ -49,7 +49,7 @@ export default function Button({
       className={`${(ctaStyle.type === "button" || !ctaStyle.type) && style.button} ${ctaStyle.style === "secondary" && style.isSecondary}`}
       href={ctaLink.href}
       target={ctaLink.target}
-      aria-label={ctaLabel}
+      aria-label={ctaLabel ?? undefined}
     >
       {ctaLabel}
     </Link>
