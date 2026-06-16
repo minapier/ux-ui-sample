@@ -1,0 +1,2474 @@
+
+  .padding-small {
+    padding: 1.5rem;
+  }
+  .form_field-label {
+    min-height: 0px;
+    align-self: center;
+    flex: 0 auto;
+    font-size: var(--_typography---font-size--text-md);
+    line-height: var(--_typography---line-height--text-md);
+    font-weight: 400;
+    letter-spacing: -0.01rem;
+  }
+  .form_field-label.is-alternate {
+    color: white;
+  }
+  .text-style-muted {
+    color: var(--_color-modes---colors--text--text-muted);
+  }
+  .text-style-muted:where(.w-variant-976a8650-6e3e-c4df-e90e-846fdaeb8253) {
+    color: var(--_color-modes---colors--brand--neutral--light-gray);
+  }
+  .max-width-xlarge {
+    width: 100%;
+    max-width: var(--_widths---width-xl);
+  }
+  .button-group {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+  }
+  .button-group:where(.w-variant-ded3d468-0d44-8038-9f9e-f6956af14143) {
+    justify-content: center;
+    align-items: center;
+  }
+  .margin-top {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-xxhuge {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-0 {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-medium {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-custom1 {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-custom3 {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-xlarge {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-large {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-custom2 {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-xhuge {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-small {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-xsmall {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-tiny {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-xxsmall {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-huge {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .margin-top.margin-xxlarge {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .spacer-xhuge {
+    width: 100%;
+    padding-top: 6rem;
+  }
+  .margin-0 {
+    margin: 0rem;
+  }
+  .padding-global {
+    padding-right: var(--_containers---container-padding);
+    padding-left: var(--_containers---container-padding);
+  }
+  .form_input {
+    width: 100%;
+    height: auto;
+    min-height: 2.25rem;
+    margin-bottom: 0px;
+    padding: 0.625rem;
+    border: 1px solid var(--__base---colors--brand--neutral--med-gray);
+    border-radius: var(--_radius---radius-xxs);
+    background-color: var(
+      --_color-modes---colors--brand--neutral--lightest-gray
+    );
+    color: var(--_color-modes---colors--foreground--fg-color-primary);
+    font-size: var(--_typography---font-size--text-sm);
+    line-height: var(--_typography---line-height--text-sm);
+    font-weight: 400;
+  }
+  .form_input:focus {
+    border-color: black;
+  }
+  .form_input::placeholder {
+    color: hsla(0, 0%, 0%, 0.6);
+  }
+  .form_input.is-alternate::placeholder {
+    color: hsla(0, 0%, 100%, 0.6);
+  }
+  .form_input.is-text-area {
+    overflow: auto;
+    height: auto;
+    min-height: 12.5rem;
+  }
+  .form_input.is-select-input {
+    background-image: url(https://cdn.prod.website-files.com/69244a514e5720feec5d3ba9/6941847f58524c4cc3ac3c6b_chevron-down.svg);
+    background-position: 99% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  .form_input.is-select-input.is-alternate {
+    background-image: url(https://cdn.prod.website-files.com/69244a514e5720feec5d3ba9/6941847f58524c4cc3ac3c6a_chevron-down-white.svg);
+  }
+  .spacer-large {
+    width: 100%;
+    padding-top: 2rem;
+  }
+  .button {
+    display: flex;
+    padding: 0.8125rem 1.375rem;
+    align-self: flex-start;
+    grid-column-gap: 0.625rem;
+    grid-row-gap: 0.625rem;
+    border: 1px solid
+      var(--_color-modes---colors--borders--border-color-primary);
+    border-radius: 6.25rem;
+    background-color: var(--_color-modes---colors--buttons--button-primary);
+    color: var(--_color-modes---colors--buttons--button-primary-text);
+    font-size: 1em;
+    font-weight: var(--_typography---font-weight--normal);
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .button:where(.w-variant-309ad327-90de-baff-17b8-c48193b7e122) {
+    --_color-modes---colors--text--text-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--core--brand-medblue: var(
+      --__base---colors--brand--primary--med-blue
+    );
+    --_color-modes---colors--text--text-muted: var(
+      --_color-modes---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--light-gray: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--lightest-gray: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--foreground--fg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--borders--border-color-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary-text: var(
+      --_color-modes---colors--brand--neutral--black
+    );
+    --_color-modes---colors--buttons--button-primary-hover: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary-hover: var(
+      --__base---colors--brand--neutral-dk-mode-alpha--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary: transparent;
+    --_color-modes---colors--buttons--button-secondary-text: var(
+      --_color-modes---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--lightest-gray: rgba(
+      245,
+      250,
+      255,
+      0.4
+    );
+    --_color-modes---colors--foreground--fg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--borders--border-accordion-item: rgba(
+      245,
+      250,
+      255,
+      0.5
+    );
+    --_color-modes---colors--brand--neutral--black: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--background--bg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--text--text-footer: var(
+      --_color-modes---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-3: rgba(
+      12,
+      2,
+      11,
+      0.03
+    );
+    --_color-modes---colors--background--bg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--background--bg-color-secondary: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--borders--border-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--borders--border-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--brand--core--brand-gold: var(
+      --__base---colors--brand--primary--gold
+    );
+    --_color-modes---colors--brand--core--brand-purple: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--brand--core--brand-orange: var(
+      --__base---colors--brand--primary--orange
+    );
+    --_color-modes---colors--brand--core--brand-pink: var(
+      --__base---colors--brand--primary--pink
+    );
+    --_color-modes---colors--brand--core--brand-magenta: var(
+      --__base---colors--brand--primary--magenta
+    );
+    --_color-modes---colors--brand--core--brand-brightblue: var(
+      --__base---colors--brand--primary--bright-blue-lm
+    );
+    --_color-modes---colors--brand--core--brand-darkteal: var(
+      --__base---colors--brand--primary--dark-teal
+    );
+    --_color-modes---colors--brand--core--brand-darkblue: var(
+      --__base---colors--brand--primary--dark-blue
+    );
+    --_color-modes---colors--brand--neutral--med-gray: var(
+      --__base---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral--dark-gray: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--light-gray: #dae5ee33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--dark-gray: #2f292e33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--med-gray: #807e8533;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-20: rgba(
+      12,
+      2,
+      11,
+      0.2
+    );
+    --_color-modes---colors--effects--shadow: #00000080;
+    --_color-modes---colors--foreground--fg-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+  }
+  .button:hover {
+    background-color: var(
+      --_color-modes---colors--buttons--button-primary-hover
+    );
+    box-shadow: 0 2px 4px 0
+      var(--_color-modes---colors--buttons--button-secondary-hover);
+  }
+  .button:hover:where(.w-variant-43a7f0b1-10ce-2552-e311-4fbf596b46fd) {
+    background-color: var(
+      --_color-modes---colors--buttons--button-primary-hover
+    );
+  }
+  .button.is-link {
+    padding: 0.25rem 0rem;
+    border-style: none;
+    background-color: transparent;
+    color: var(--__base---colors--brand--neutral--black);
+    line-height: 1;
+    text-decoration: none;
+  }
+  .button.is-link:hover {
+    box-shadow: none;
+    color: var(--__base---colors--brand--neutral--dark-gray);
+  }
+  .button.is-link.is-icon {
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+  }
+  .button.is-link.is-alternate {
+    background-color: transparent;
+    color: var(--__base---colors--brand--neutral--lightest-gray);
+  }
+  .button.is-link.is-alternate:hover {
+    background-color: transparent;
+    color: var(--__base---colors--brand--neutral--light-gray);
+  }
+  .button.is-secondary {
+    background-color: var(--_color-modes---colors--buttons--button-secondary);
+    color: var(--_color-modes---colors--buttons--button-secondary-text);
+  }
+  .button.is-secondary:hover {
+    background-color: var(
+      --_color-modes---colors--buttons--button-secondary-hover
+    );
+    box-shadow: 0 2px 4px 0
+      var(--_color-modes---colors--buttons--button-secondary-hover);
+  }
+  .button.is-secondary:hover:where(
+      .w-variant-43a7f0b1-10ce-2552-e311-4fbf596b46fd
+    ) {
+    background-color: var(
+      --_color-modes---colors--buttons--button-secondary-hover
+    );
+  }
+  .button.is-secondary.is-alternate {
+    border-color: var(--_color-modes---colors--brand--neutral--lightest-gray);
+  }
+  .button.is-secondary.is-alternate:hover {
+    background-color: var(
+      --__base---colors--brand--neutral-dk-mode-alpha--light-gray
+    );
+  }
+  .button.is-small {
+    padding: 0.5rem 1.25rem;
+  }
+  .button.is-alternate {
+    --_color-modes---colors--text--text-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--core--brand-medblue: var(
+      --__base---colors--brand--primary--med-blue
+    );
+    --_color-modes---colors--text--text-muted: var(
+      --_color-modes---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--light-gray: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--lightest-gray: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--foreground--fg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--borders--border-color-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary-text: var(
+      --_color-modes---colors--brand--neutral--black
+    );
+    --_color-modes---colors--buttons--button-primary-hover: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary-hover: var(
+      --__base---colors--brand--neutral-dk-mode-alpha--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary: transparent;
+    --_color-modes---colors--buttons--button-secondary-text: var(
+      --_color-modes---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--lightest-gray: rgba(
+      245,
+      250,
+      255,
+      0.4
+    );
+    --_color-modes---colors--foreground--fg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--borders--border-accordion-item: rgba(
+      245,
+      250,
+      255,
+      0.5
+    );
+    --_color-modes---colors--brand--neutral--black: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--background--bg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--text--text-footer: var(
+      --_color-modes---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-3: rgba(
+      12,
+      2,
+      11,
+      0.03
+    );
+    --_color-modes---colors--background--bg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--background--bg-color-secondary: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--borders--border-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--borders--border-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--brand--core--brand-gold: var(
+      --__base---colors--brand--primary--gold
+    );
+    --_color-modes---colors--brand--core--brand-purple: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--brand--core--brand-orange: var(
+      --__base---colors--brand--primary--orange
+    );
+    --_color-modes---colors--brand--core--brand-pink: var(
+      --__base---colors--brand--primary--pink
+    );
+    --_color-modes---colors--brand--core--brand-magenta: var(
+      --__base---colors--brand--primary--magenta
+    );
+    --_color-modes---colors--brand--core--brand-brightblue: var(
+      --__base---colors--brand--primary--bright-blue-lm
+    );
+    --_color-modes---colors--brand--core--brand-darkteal: var(
+      --__base---colors--brand--primary--dark-teal
+    );
+    --_color-modes---colors--brand--core--brand-darkblue: var(
+      --__base---colors--brand--primary--dark-blue
+    );
+    --_color-modes---colors--brand--neutral--med-gray: var(
+      --__base---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral--dark-gray: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--light-gray: #dae5ee33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--dark-gray: #2f292e33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--med-gray: #807e8533;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-20: rgba(
+      12,
+      2,
+      11,
+      0.2
+    );
+    --_color-modes---colors--effects--shadow: #00000080;
+    --_color-modes---colors--foreground--fg-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+  }
+  .button.is-alternate:hover {
+    background-color: var(--_color-modes---colors--brand--neutral--light-gray);
+  }
+  .button.is-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 0.75rem;
+    grid-row-gap: 0.75rem;
+  }
+  .align-center {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .text-size-xlarge {
+    font-size: var(--_typography---font-size--text-xl);
+    line-height: var(--_typography---line-height--text-xl);
+    letter-spacing: -0.0375rem;
+  }
+  .text-style-alt {
+    font-family: var(--_typography---font-family--font-family-alt);
+  }
+  .text-style-alt:where(.w-variant-976a8650-6e3e-c4df-e90e-846fdaeb8253) {
+    color: var(--_color-modes---colors--text--text-primary);
+  }
+  .text-style-alt:where(.w-variant-43a7f0b1-10ce-2552-e311-4fbf596b46fd) {
+    --_color-modes---colors--text--text-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--core--brand-medblue: var(
+      --__base---colors--brand--primary--med-blue
+    );
+    --_color-modes---colors--text--text-muted: var(
+      --_color-modes---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--light-gray: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--lightest-gray: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--foreground--fg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--borders--border-color-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary-text: var(
+      --_color-modes---colors--brand--neutral--black
+    );
+    --_color-modes---colors--buttons--button-primary-hover: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary-hover: var(
+      --__base---colors--brand--neutral-dk-mode-alpha--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary: transparent;
+    --_color-modes---colors--buttons--button-secondary-text: var(
+      --_color-modes---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--lightest-gray: rgba(
+      245,
+      250,
+      255,
+      0.4
+    );
+    --_color-modes---colors--foreground--fg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--borders--border-accordion-item: rgba(
+      245,
+      250,
+      255,
+      0.5
+    );
+    --_color-modes---colors--brand--neutral--black: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--background--bg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--text--text-footer: var(
+      --_color-modes---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-3: rgba(
+      12,
+      2,
+      11,
+      0.03
+    );
+    --_color-modes---colors--background--bg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--background--bg-color-secondary: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--borders--border-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--borders--border-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--brand--core--brand-gold: var(
+      --__base---colors--brand--primary--gold
+    );
+    --_color-modes---colors--brand--core--brand-purple: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--brand--core--brand-orange: var(
+      --__base---colors--brand--primary--orange
+    );
+    --_color-modes---colors--brand--core--brand-pink: var(
+      --__base---colors--brand--primary--pink
+    );
+    --_color-modes---colors--brand--core--brand-magenta: var(
+      --__base---colors--brand--primary--magenta
+    );
+    --_color-modes---colors--brand--core--brand-brightblue: var(
+      --__base---colors--brand--primary--bright-blue-lm
+    );
+    --_color-modes---colors--brand--core--brand-darkteal: var(
+      --__base---colors--brand--primary--dark-teal
+    );
+    --_color-modes---colors--brand--core--brand-darkblue: var(
+      --__base---colors--brand--primary--dark-blue
+    );
+    --_color-modes---colors--brand--neutral--med-gray: var(
+      --__base---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral--dark-gray: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--light-gray: #dae5ee33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--dark-gray: #2f292e33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--med-gray: #807e8533;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-20: rgba(
+      12,
+      2,
+      11,
+      0.2
+    );
+    --_color-modes---colors--effects--shadow: #00000080;
+    --_color-modes---colors--foreground--fg-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+  }
+  .text-style-alt.text-size-small.text-color-white {
+    z-index: 2;
+  }
+  .navbar_component {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: var(
+      --_color-modes---colors--brand--neutral-dk-mode-alpha--lightest-gray
+    );
+    backdrop-filter: blur(20px);
+  }
+  .navbar_container {
+    position: relative;
+    z-index: 999;
+    display: flex;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .container-full {
+    width: 100%;
+    max-width: var(--_containers---container-full-width-desktop);
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .navbar_logo-image {
+    height: 3.625rem;
+  }
+  .navbar_menu-button {
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: transparent;
+    color: var(--_color-modes---colors--buttons--button-primary);
+  }
+  .navbar_menu-button:active {
+    background-color: transparent;
+  }
+  .navbar_menu-button.w--open {
+    background-color: transparent;
+    color: var(--_color-modes---colors--text--text-primary);
+  }
+  .navbar_menu-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .navbar_menu-icon.icon-hamburger {
+    position: absolute;
+  }
+  .navbar_menu-icon.icon-close {
+    display: block;
+    opacity: 0;
+  }
+  .navbar_menu-link {
+    display: flex;
+    padding: 0.625rem 0px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    transition: padding 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955),
+      color 200ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    color: var(--_color-modes---colors--text--text-primary);
+    letter-spacing: -0.045rem;
+    text-decoration: none;
+    text-transform: none;
+  }
+  .navbar_menu-link:hover {
+    padding-left: 2.5rem;
+    color: var(--_color-modes---colors--foreground--fg-color-brand-primary);
+  }
+  .navbar_menu {
+    position: relative;
+    z-index: 50;
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 3.75rem;
+    opacity: 0;
+  }
+  .navbar_menu-link_alt {
+    padding-bottom: 0.75rem;
+    font-family: var(--_typography---font-family--font-family-alt);
+    font-size: var(--_typography---font-size--text-md);
+    line-height: var(--_typography---font-size--text-md);
+    font-weight: var(--_typography---font-weight--normal);
+  }
+  .navbar_menu-link_label {
+    font-family: var(--_typography---font-family--font-family-display);
+    font-size: var(--_typography---font-size--display-2xl);
+    line-height: var(--_typography---line-height--display-2xl);
+    font-weight: var(--_typography---font-weight--semibold);
+  }
+  .navbar_menu-overlay {
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    height: 0%;
+  }
+  .navbar_logo-image_mobile {
+    display: none;
+    height: 3rem;
+  }
+  .hero_content {
+    display: grid;
+    justify-content: end;
+    align-items: stretch;
+    grid-auto-flow: row dense;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 2.5rem;
+    grid-template-columns: 0.75fr 1fr;
+    grid-template-rows: auto;
+  }
+  .hero_content-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 2.5rem;
+  }
+  .hero_content-eyebrow {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    height: 2.25rem;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+    font-family: var(--_typography---font-family--font-family-alt);
+    color: var(--_color-modes---colors--foreground--fg-color-brand-primary);
+    font-size: var(--_typography---font-size--text-md);
+    line-height: var(--_typography---line-height--text-md);
+  }
+  .eyebrow_scrolling {
+    position: relative;
+    display: flex;
+    padding-bottom: 0.8125rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 1.4375rem;
+    grid-row-gap: 1.4375rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+  }
+  .hero_content-heading {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    grid-column-gap: 0.25rem;
+    grid-row-gap: 0.25rem;
+  }
+  .hero_marquee {
+    display: flex;
+    overflow: hidden;
+    max-height: 22.125rem;
+    grid-column-gap: 1.875rem;
+    grid-row-gap: 1.875rem;
+  }
+  .hero_marquee-track {
+    display: flex;
+    flex: 0 0 auto;
+    grid-column-gap: 1.875rem;
+    grid-row-gap: 1.875rem;
+  }
+  .hero_marquee-imageset {
+    display: flex;
+    flex: 0 0 auto;
+    grid-column-gap: 0.875rem;
+    grid-row-gap: 0.875rem;
+  }
+  .hero_marquee-image {
+    max-height: 22.4375rem;
+    max-width: 22.0625rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+  .hero_marquee-video_wrapper {
+    position: relative;
+    overflow: hidden;
+    max-width: 22.0625rem;
+    flex: 0 0 auto;
+    border-top-right-radius: var(--_radius---radius-full);
+    object-fit: cover;
+  }
+  .hero_marquee-video {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 1;
+    object-fit: cover;
+  }
+  .heading-title {
+    font-size: var(--_typography---line-height--display-xl);
+    line-height: var(--_typography---line-height--display-xl);
+    font-weight: var(--_typography---font-weight--medium);
+    letter-spacing: -0.03375rem;
+  }
+  .emblems-group {
+    display: flex;
+    max-width: 100%;
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 2.5rem;
+    opacity: 0.4;
+  }
+  .emblems-group.align-center {
+    justify-content: center;
+    align-items: center;
+  }
+  .emblem {
+    max-width: 6.25rem;
+  }
+  .services_wrapper {
+    border-top-right-radius: var(--_radius---radius-full);
+  }
+  .header-content {
+    display: flex;
+    padding-right: 2rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    grid-column-gap: 0.25rem;
+    grid-row-gap: 0.25rem;
+    color: var(--_color-modes---colors--text--text-primary);
+  }
+  .sevices_header {
+    display: flex;
+    min-height: 35.25rem;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 1.625rem;
+    grid-row-gap: 1.625rem;
+    grid-template-areas: "Area";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .services_accordion-wrapper {
+    display: block;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .accordion {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    grid-column-gap: 1.875rem;
+    grid-row-gap: 1.875rem;
+    color: var(--_color-modes---colors--text--text-primary);
+  }
+  .accordion:where(.w-variant-60947264-94ef-4541-66a7-8a4c084e0276) {
+    --_color-modes---colors--text--text-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--core--brand-medblue: var(
+      --__base---colors--brand--primary--med-blue
+    );
+    --_color-modes---colors--text--text-muted: var(
+      --_color-modes---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--light-gray: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--lightest-gray: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--foreground--fg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--borders--border-color-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary-text: var(
+      --_color-modes---colors--brand--neutral--black
+    );
+    --_color-modes---colors--buttons--button-primary-hover: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary-hover: var(
+      --__base---colors--brand--neutral-dk-mode-alpha--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary: transparent;
+    --_color-modes---colors--buttons--button-secondary-text: var(
+      --_color-modes---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--lightest-gray: rgba(
+      245,
+      250,
+      255,
+      0.4
+    );
+    --_color-modes---colors--foreground--fg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--borders--border-accordion-item: rgba(
+      245,
+      250,
+      255,
+      0.5
+    );
+    --_color-modes---colors--brand--neutral--black: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--background--bg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--text--text-footer: var(
+      --_color-modes---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-3: rgba(
+      12,
+      2,
+      11,
+      0.03
+    );
+    --_color-modes---colors--background--bg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--background--bg-color-secondary: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--borders--border-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--borders--border-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--brand--core--brand-gold: var(
+      --__base---colors--brand--primary--gold
+    );
+    --_color-modes---colors--brand--core--brand-purple: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--brand--core--brand-orange: var(
+      --__base---colors--brand--primary--orange
+    );
+    --_color-modes---colors--brand--core--brand-pink: var(
+      --__base---colors--brand--primary--pink
+    );
+    --_color-modes---colors--brand--core--brand-magenta: var(
+      --__base---colors--brand--primary--magenta
+    );
+    --_color-modes---colors--brand--core--brand-brightblue: var(
+      --__base---colors--brand--primary--bright-blue-lm
+    );
+    --_color-modes---colors--brand--core--brand-darkteal: var(
+      --__base---colors--brand--primary--dark-teal
+    );
+    --_color-modes---colors--brand--core--brand-darkblue: var(
+      --__base---colors--brand--primary--dark-blue
+    );
+    --_color-modes---colors--brand--neutral--med-gray: var(
+      --__base---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral--dark-gray: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--light-gray: #dae5ee33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--dark-gray: #2f292e33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--med-gray: #807e8533;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-20: rgba(
+      12,
+      2,
+      11,
+      0.2
+    );
+    --_color-modes---colors--effects--shadow: #00000080;
+    --_color-modes---colors--foreground--fg-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+  }
+  .accordion-item {
+    display: flex;
+    max-width: 86rem;
+    padding-bottom: 1.875rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    grid-column-gap: 0.625rem;
+    grid-row-gap: 0.625rem;
+    border-bottom: 0.5px solid
+      var(--_color-modes---colors--borders--border-accordion-item);
+    color: var(--_color-modes---colors--text--text-primary);
+  }
+  .accordion-item:where(.w-variant-0f9975ef-4d94-4339-e2a5-b2ede67077ba) {
+    --_color-modes---colors--text--text-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--core--brand-medblue: var(
+      --__base---colors--brand--primary--med-blue
+    );
+    --_color-modes---colors--text--text-muted: var(
+      --_color-modes---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--light-gray: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--lightest-gray: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--foreground--fg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--borders--border-color-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary-text: var(
+      --_color-modes---colors--brand--neutral--black
+    );
+    --_color-modes---colors--buttons--button-primary-hover: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary-hover: var(
+      --__base---colors--brand--neutral-dk-mode-alpha--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary: transparent;
+    --_color-modes---colors--buttons--button-secondary-text: var(
+      --_color-modes---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--lightest-gray: rgba(
+      245,
+      250,
+      255,
+      0.4
+    );
+    --_color-modes---colors--foreground--fg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--borders--border-accordion-item: rgba(
+      245,
+      250,
+      255,
+      0.5
+    );
+    --_color-modes---colors--brand--neutral--black: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--background--bg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--text--text-footer: var(
+      --_color-modes---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-3: rgba(
+      12,
+      2,
+      11,
+      0.03
+    );
+    --_color-modes---colors--background--bg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--background--bg-color-secondary: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--borders--border-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--borders--border-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--brand--core--brand-gold: var(
+      --__base---colors--brand--primary--gold
+    );
+    --_color-modes---colors--brand--core--brand-purple: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--brand--core--brand-orange: var(
+      --__base---colors--brand--primary--orange
+    );
+    --_color-modes---colors--brand--core--brand-pink: var(
+      --__base---colors--brand--primary--pink
+    );
+    --_color-modes---colors--brand--core--brand-magenta: var(
+      --__base---colors--brand--primary--magenta
+    );
+    --_color-modes---colors--brand--core--brand-brightblue: var(
+      --__base---colors--brand--primary--bright-blue-lm
+    );
+    --_color-modes---colors--brand--core--brand-darkteal: var(
+      --__base---colors--brand--primary--dark-teal
+    );
+    --_color-modes---colors--brand--core--brand-darkblue: var(
+      --__base---colors--brand--primary--dark-blue
+    );
+    --_color-modes---colors--brand--neutral--med-gray: var(
+      --__base---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral--dark-gray: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--light-gray: #dae5ee33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--dark-gray: #2f292e33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--med-gray: #807e8533;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-20: rgba(
+      12,
+      2,
+      11,
+      0.2
+    );
+    --_color-modes---colors--effects--shadow: #00000080;
+    --_color-modes---colors--foreground--fg-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+  }
+  .accordion-item_button {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    padding-top: 0px;
+    aspect-ratio: 1/1;
+  }
+  .accordion-item_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-self: center;
+    flex: 1;
+  }
+  .text-size-display-md {
+    font-size: var(--_typography---font-size--display-md);
+    line-height: var(--_typography---line-height--display-md);
+    letter-spacing: 0.025rem;
+  }
+  .accordion-item_wrapper {
+    display: flex;
+    grid-column-gap: 0.625rem;
+    grid-row-gap: 0.625rem;
+    cursor: pointer;
+  }
+  .accordion-item_title-wrapper {
+    padding-top: 0.25rem;
+  }
+  .accordion-icon {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+  }
+  .accordion-item_copy-wrapper {
+    display: flex;
+    overflow: hidden;
+    padding-top: 1.25rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    grid-column-gap: 1.25rem;
+    grid-row-gap: 1.25rem;
+  }
+  .accordion-item-slot {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    grid-column-gap: 1.875rem;
+    grid-row-gap: 1.875rem;
+  }
+  .accordion-item-title {
+    font-size: var(--_typography---line-height--display-md);
+    line-height: var(--_typography---line-height--display-md);
+    font-weight: var(--_typography---font-weight--medium);
+    letter-spacing: -0.0225rem;
+  }
+  .heading-content {
+    min-height: 0px;
+    font-size: var(--_typography---font-size--text-xl);
+    line-height: var(--_typography---line-height--text-xl);
+  }
+  .accordion-item_button-wrapper {
+    padding-right: 0.8125rem;
+    padding-left: 0.8125rem;
+  }
+  .hero_marquee-image_wrapper {
+    overflow: hidden;
+  }
+  .hero_marquee-image_wrapper.left-image {
+    border-top-right-radius: var(--_radius---radius-full);
+  }
+  .hero_marquee-image_wrapper.right-image {
+    border-top-left-radius: var(--_radius---radius-full);
+  }
+  .contact_container {
+    display: flex;
+    grid-column-gap: 1.875rem;
+    grid-row-gap: 1.875rem;
+  }
+  .contact_container:where(.w-variant-976a8650-6e3e-c4df-e90e-846fdaeb8253) {
+    color: var(--_color-modes---colors--brand--neutral--lightest-gray);
+  }
+  .contact_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex: 1;
+  }
+  .contact_form-wrapper {
+    flex: 1;
+  }
+  .contact_content-header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    grid-column-gap: 1.25rem;
+    grid-row-gap: 1.25rem;
+  }
+  .contact-form_component {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .contact-form_component:where(
+      .w-variant-a36d0dc3-85db-8c53-5c5a-8bb2cc6efdd4
+    ) {
+    --_color-modes---colors--text--text-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--core--brand-medblue: var(
+      --__base---colors--brand--primary--med-blue
+    );
+    --_color-modes---colors--text--text-muted: var(
+      --_color-modes---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--light-gray: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--lightest-gray: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--foreground--fg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--borders--border-color-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary-text: var(
+      --_color-modes---colors--brand--neutral--black
+    );
+    --_color-modes---colors--buttons--button-primary-hover: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary-hover: var(
+      --__base---colors--brand--neutral-dk-mode-alpha--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary: transparent;
+    --_color-modes---colors--buttons--button-secondary-text: var(
+      --_color-modes---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--lightest-gray: rgba(
+      245,
+      250,
+      255,
+      0.4
+    );
+    --_color-modes---colors--foreground--fg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--borders--border-accordion-item: rgba(
+      245,
+      250,
+      255,
+      0.5
+    );
+    --_color-modes---colors--brand--neutral--black: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--background--bg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--text--text-footer: var(
+      --_color-modes---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-3: rgba(
+      12,
+      2,
+      11,
+      0.03
+    );
+    --_color-modes---colors--background--bg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--background--bg-color-secondary: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--borders--border-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--borders--border-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--brand--core--brand-gold: var(
+      --__base---colors--brand--primary--gold
+    );
+    --_color-modes---colors--brand--core--brand-purple: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--brand--core--brand-orange: var(
+      --__base---colors--brand--primary--orange
+    );
+    --_color-modes---colors--brand--core--brand-pink: var(
+      --__base---colors--brand--primary--pink
+    );
+    --_color-modes---colors--brand--core--brand-magenta: var(
+      --__base---colors--brand--primary--magenta
+    );
+    --_color-modes---colors--brand--core--brand-brightblue: var(
+      --__base---colors--brand--primary--bright-blue-lm
+    );
+    --_color-modes---colors--brand--core--brand-darkteal: var(
+      --__base---colors--brand--primary--dark-teal
+    );
+    --_color-modes---colors--brand--core--brand-darkblue: var(
+      --__base---colors--brand--primary--dark-blue
+    );
+    --_color-modes---colors--brand--neutral--med-gray: var(
+      --__base---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral--dark-gray: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--light-gray: #dae5ee33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--dark-gray: #2f292e33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--med-gray: #807e8533;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-20: rgba(
+      12,
+      2,
+      11,
+      0.2
+    );
+    --_color-modes---colors--effects--shadow: #00000080;
+    --_color-modes---colors--foreground--fg-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+  }
+  .contact-form {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+  }
+  .radio_input {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 2;
+    cursor: pointer;
+    appearance: none;
+  }
+  .radio_circle_inner {
+    width: 70%;
+    height: 70%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-top-left-radius: 100vw;
+    border-top-right-radius: 100vw;
+    border-bottom-left-radius: 100vw;
+    border-bottom-right-radius: 100vw;
+    opacity: 0;
+    background-color: currentColor;
+  }
+  .radio_circle_wrap {
+    display: flex;
+    width: 1.5rem;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    border-style: solid;
+    border-width: 0.125rem;
+    border-radius: 100vw;
+  }
+  .radio_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+  .radio_legend {
+    margin-bottom: 0.7rem;
+  }
+  .radio_label {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-column-gap: 0.6rem;
+    grid-row-gap: 0.6rem;
+  }
+  .form_input-wrap {
+    flex: 1;
+  }
+  .form_name-fields {
+    display: flex;
+    grid-column-gap: 1.25rem;
+    grid-row-gap: 1.25rem;
+  }
+  .spacer-0 {
+    height: 0px;
+  }
+  .contact-form_email {
+    display: inline-grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .contact-form_success {
+    height: auto;
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+    border-radius: var(--_radius---radius-small);
+    background-color: var(--_color-modes---colors--brand--neutral--light-gray);
+    color: var(--_color-modes---colors--brand--neutral--black);
+    font-size: var(--_typography---font-size--text-sm);
+    line-height: var(--_typography---line-height--text-sm);
+  }
+  .contact-form_success-wrap {
+    min-height: 32.75rem;
+    background-color: transparent;
+  }
+  .contact-form_fields {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+  }
+  .form_field-label_wrapper {
+    display: flex;
+    height: 1.75rem;
+    margin-bottom: 0.5rem;
+    grid-column-gap: 0.125rem;
+    grid-row-gap: 0.125rem;
+  }
+  .form_field-label_required {
+    min-height: 0px;
+    align-self: center;
+    color: var(--_color-modes---colors--foreground--fg-color-brand-primary);
+    font-size: var(--_typography---font-size--text-xl);
+  }
+  .legend {
+    display: none;
+  }
+  .footer_component {
+    background-color: var(
+      --_color-modes---colors--background--bg-color-primary
+    );
+  }
+  .footer_component:where(.w-variant-3e3ac7de-30a5-7e35-ae23-c9823a8e3eb0) {
+    --_color-modes---colors--text--text-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--core--brand-medblue: var(
+      --__base---colors--brand--primary--med-blue
+    );
+    --_color-modes---colors--text--text-muted: var(
+      --_color-modes---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--light-gray: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--lightest-gray: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--foreground--fg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--borders--border-color-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary-text: var(
+      --_color-modes---colors--brand--neutral--black
+    );
+    --_color-modes---colors--buttons--button-primary-hover: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary-hover: var(
+      --__base---colors--brand--neutral-dk-mode-alpha--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary: transparent;
+    --_color-modes---colors--buttons--button-secondary-text: var(
+      --_color-modes---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--lightest-gray: rgba(
+      245,
+      250,
+      255,
+      0.4
+    );
+    --_color-modes---colors--foreground--fg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--borders--border-accordion-item: rgba(
+      245,
+      250,
+      255,
+      0.5
+    );
+    --_color-modes---colors--brand--neutral--black: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--background--bg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--text--text-footer: var(
+      --_color-modes---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-3: rgba(
+      12,
+      2,
+      11,
+      0.03
+    );
+    --_color-modes---colors--background--bg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--background--bg-color-secondary: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--borders--border-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--borders--border-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--brand--core--brand-gold: var(
+      --__base---colors--brand--primary--gold
+    );
+    --_color-modes---colors--brand--core--brand-purple: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--brand--core--brand-orange: var(
+      --__base---colors--brand--primary--orange
+    );
+    --_color-modes---colors--brand--core--brand-pink: var(
+      --__base---colors--brand--primary--pink
+    );
+    --_color-modes---colors--brand--core--brand-magenta: var(
+      --__base---colors--brand--primary--magenta
+    );
+    --_color-modes---colors--brand--core--brand-brightblue: var(
+      --__base---colors--brand--primary--bright-blue-lm
+    );
+    --_color-modes---colors--brand--core--brand-darkteal: var(
+      --__base---colors--brand--primary--dark-teal
+    );
+    --_color-modes---colors--brand--core--brand-darkblue: var(
+      --__base---colors--brand--primary--dark-blue
+    );
+    --_color-modes---colors--brand--neutral--med-gray: var(
+      --__base---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral--dark-gray: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--light-gray: #dae5ee33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--dark-gray: #2f292e33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--med-gray: #807e8533;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-20: rgba(
+      12,
+      2,
+      11,
+      0.2
+    );
+    --_color-modes---colors--effects--shadow: #00000080;
+    --_color-modes---colors--foreground--fg-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+  }
+  .footer_container {
+    padding-top: 2.5rem;
+    padding-right: 0px;
+    padding-bottom: 0.625rem;
+  }
+  .footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    grid-column-gap: 0.625rem;
+    grid-row-gap: 0.625rem;
+    color: var(--_color-modes---colors--text--text-footer);
+  }
+  .footer_copyright {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    flex: 1;
+  }
+  .footer_links {
+    align-self: center;
+  }
+  .footer_link {
+    max-height: 1.8125rem;
+    min-width: 7.75rem;
+    padding: 0.375rem 0.875rem;
+    border-right: 0.5px solid var(--_color-modes---colors--text--text-footer);
+    border-bottom-right-radius: var(--_radius---radius-xxs);
+    transition: background-color 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: var(--_color-modes---colors--text--text-footer);
+    letter-spacing: 0rem;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .footer_link:hover {
+    background-color: var(
+      --__base---colors--brand--neutral-dk-mode-alpha--med-gray
+    );
+  }
+  .footer_link-list {
+    display: flex;
+    overflow: hidden;
+    border-top: 0.5px solid var(--_color-modes---colors--text--text-footer);
+    border-bottom: 0.5px solid var(--_color-modes---colors--text--text-footer);
+    border-left: 0.5px solid var(--_color-modes---colors--text--text-footer);
+    border-top-left-radius: var(--_radius---radius-xxs);
+    border-bottom-right-radius: var(--_radius---radius-xxs);
+  }
+  .section {
+    position: relative;
+  }
+  .section:where(.w-variant-d442aba8-2053-b4fe-f046-65ae1c277cc3) {
+    position: relative;
+  }
+  .section.section_services {
+    overflow: hidden;
+    background-color: transparent;
+  }
+  .section.section_services:where(
+      .w-variant-d442aba8-2053-b4fe-f046-65ae1c277cc3
+    ) {
+    background-image: radial-gradient(
+      circle farthest-corner at 50% 50%,
+      rgba(255, 255, 255, 0.08) 0.25%,
+      rgba(255, 255, 255, 0.08)
+    );
+    --_color-modes---colors--text--text-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--core--brand-medblue: var(
+      --__base---colors--brand--primary--med-blue
+    );
+    --_color-modes---colors--text--text-muted: var(
+      --_color-modes---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--light-gray: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--lightest-gray: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--foreground--fg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--borders--border-color-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary-text: var(
+      --_color-modes---colors--brand--neutral--black
+    );
+    --_color-modes---colors--buttons--button-primary-hover: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary-hover: var(
+      --__base---colors--brand--neutral-dk-mode-alpha--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary: transparent;
+    --_color-modes---colors--buttons--button-secondary-text: var(
+      --_color-modes---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--lightest-gray: rgba(
+      245,
+      250,
+      255,
+      0.4
+    );
+    --_color-modes---colors--foreground--fg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--borders--border-accordion-item: rgba(
+      245,
+      250,
+      255,
+      0.5
+    );
+    --_color-modes---colors--brand--neutral--black: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--background--bg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--text--text-footer: var(
+      --_color-modes---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-3: rgba(
+      12,
+      2,
+      11,
+      0.03
+    );
+    --_color-modes---colors--background--bg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--background--bg-color-secondary: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--borders--border-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--borders--border-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--brand--core--brand-gold: var(
+      --__base---colors--brand--primary--gold
+    );
+    --_color-modes---colors--brand--core--brand-purple: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--brand--core--brand-orange: var(
+      --__base---colors--brand--primary--orange
+    );
+    --_color-modes---colors--brand--core--brand-pink: var(
+      --__base---colors--brand--primary--pink
+    );
+    --_color-modes---colors--brand--core--brand-magenta: var(
+      --__base---colors--brand--primary--magenta
+    );
+    --_color-modes---colors--brand--core--brand-brightblue: var(
+      --__base---colors--brand--primary--bright-blue-lm
+    );
+    --_color-modes---colors--brand--core--brand-darkteal: var(
+      --__base---colors--brand--primary--dark-teal
+    );
+    --_color-modes---colors--brand--core--brand-darkblue: var(
+      --__base---colors--brand--primary--dark-blue
+    );
+    --_color-modes---colors--brand--neutral--med-gray: var(
+      --__base---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral--dark-gray: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--light-gray: #dae5ee33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--dark-gray: #2f292e33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--med-gray: #807e8533;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-20: rgba(
+      12,
+      2,
+      11,
+      0.2
+    );
+    --_color-modes---colors--effects--shadow: #00000080;
+    --_color-modes---colors--foreground--fg-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+  }
+  .section.section_contact {
+    background-color: var(
+      --_color-modes---colors--brand--neutral-dk-mode-alpha--black-3
+    );
+  }
+  .section.section_contact:where(
+      .w-variant-976a8650-6e3e-c4df-e90e-846fdaeb8253
+    ) {
+    --_color-modes---colors--text--text-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--core--brand-medblue: var(
+      --__base---colors--brand--primary--med-blue
+    );
+    --_color-modes---colors--text--text-muted: var(
+      --_color-modes---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--light-gray: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--lightest-gray: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--foreground--fg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--borders--border-color-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary-text: var(
+      --_color-modes---colors--brand--neutral--black
+    );
+    --_color-modes---colors--buttons--button-primary-hover: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary-hover: var(
+      --__base---colors--brand--neutral-dk-mode-alpha--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary: transparent;
+    --_color-modes---colors--buttons--button-secondary-text: var(
+      --_color-modes---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--lightest-gray: rgba(
+      245,
+      250,
+      255,
+      0.4
+    );
+    --_color-modes---colors--foreground--fg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--borders--border-accordion-item: rgba(
+      245,
+      250,
+      255,
+      0.5
+    );
+    --_color-modes---colors--brand--neutral--black: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--background--bg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--text--text-footer: var(
+      --_color-modes---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-3: rgba(
+      12,
+      2,
+      11,
+      0.03
+    );
+    --_color-modes---colors--background--bg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--background--bg-color-secondary: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--borders--border-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--borders--border-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--brand--core--brand-gold: var(
+      --__base---colors--brand--primary--gold
+    );
+    --_color-modes---colors--brand--core--brand-purple: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--brand--core--brand-orange: var(
+      --__base---colors--brand--primary--orange
+    );
+    --_color-modes---colors--brand--core--brand-pink: var(
+      --__base---colors--brand--primary--pink
+    );
+    --_color-modes---colors--brand--core--brand-magenta: var(
+      --__base---colors--brand--primary--magenta
+    );
+    --_color-modes---colors--brand--core--brand-brightblue: var(
+      --__base---colors--brand--primary--bright-blue-lm
+    );
+    --_color-modes---colors--brand--core--brand-darkteal: var(
+      --__base---colors--brand--primary--dark-teal
+    );
+    --_color-modes---colors--brand--core--brand-darkblue: var(
+      --__base---colors--brand--primary--dark-blue
+    );
+    --_color-modes---colors--brand--neutral--med-gray: var(
+      --__base---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral--dark-gray: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--light-gray: #dae5ee33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--dark-gray: #2f292e33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--med-gray: #807e8533;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-20: rgba(
+      12,
+      2,
+      11,
+      0.2
+    );
+    --_color-modes---colors--effects--shadow: #00000080;
+    --_color-modes---colors--foreground--fg-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+  }
+  .section.section_quotes {
+    overflow: hidden;
+  }
+  .section.section_work {
+    position: relative;
+    overflow: hidden;
+  }
+  .text-size-display-xs {
+    font-size: var(--_typography---font-size--display-xs);
+    line-height: var(--_typography---line-height--display-xs);
+  }
+  .cms-image {
+    width: 100%;
+    height: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+  }
+  .eyebrow {
+    font-family: var(--_typography---font-family--font-family-alt);
+    color: var(--_color-modes---colors--foreground--fg-color-brand-primary);
+    font-size: var(--_typography---font-size--text-md);
+    line-height: var(--_typography---line-height--text-md);
+    font-weight: var(--_typography---font-weight--normal);
+  }
+  .cms-image-video {
+    width: 100%;
+    height: 100%;
+  }
+  .cms-video {
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+  .services_header-media {
+    border-top-right-radius: var(--_radius---radius-large);
+  }
+  .services_header-content {
+    align-self: center;
+  }
+  .services_header-image {
+    width: 100%;
+    max-width: 35.25rem;
+    border-top-right-radius: var(--_radius---radius-large);
+    object-fit: contain;
+  }
+  .team_member-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    grid-column-gap: 5rem;
+    grid-row-gap: 5rem;
+  }
+  .team_member-intro {
+    display: flex;
+    width: 100%;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+  }
+  .team_member-portrait {
+    position: relative;
+    height: 100%;
+    min-width: 17.25rem;
+  }
+  .team_member-portrait_image {
+    position: relative;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+  }
+  .team_member-portrait_background {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    height: 85%;
+    background-image: linear-gradient(
+      270deg,
+      rgba(47, 41, 46, 0.53),
+      rgba(47, 41, 46, 0.86)
+    );
+  }
+  .team_member-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+  .text-size-display-sm {
+    font-size: var(--_typography---font-size--display-sm);
+    line-height: var(--_typography---line-height--display-sm);
+  }
+  .team_member-bio {
+    display: flex;
+    grid-auto-columns: 1fr;
+    grid-column-gap: var(--_spacing---spacing-7xl);
+    grid-row-gap: var(--_spacing---spacing-7xl);
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+  }
+  .team_member-bio:where(.w-variant-ecc83593-abf9-eb75-b237-ab1fac50c4c7) {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+  }
+  .team_member-quote {
+    display: flex;
+    width: 100%;
+    flex: 1 0 25%;
+    grid-row-gap: 0.625rem;
+  }
+  .text-size-display-3xl {
+    font-size: var(--_typography---font-size--display-3xl);
+    line-height: var(--_typography---line-height--display-3xl);
+  }
+  .team_member-bio_text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex: 4 0 25%;
+    grid-column-gap: 1.25rem;
+    grid-row-gap: 1.25rem;
+  }
+  .team_member-quote_mobile {
+    display: none;
+    width: 100%;
+    grid-row-gap: 0.625rem;
+  }
+  .min-height-0 {
+    min-height: 0px;
+  }
+  .spacer {
+    height: var(--_spacing---section-spacer);
+  }
+  .display-text {
+    font-size: var(--_typography---font-size--display-md);
+    line-height: var(--_typography---line-height--display-md);
+    font-weight: var(--_typography---font-weight--medium);
+    letter-spacing: 0.025rem;
+  }
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .team_member-badge {
+    max-width: 17.5rem;
+  }
+  .seo_container:where(.w-variant-7c430064-63ea-e9e5-631f-d507993f3023) {
+    --_color-modes---colors--text--text-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--core--brand-medblue: var(
+      --__base---colors--brand--primary--med-blue
+    );
+    --_color-modes---colors--text--text-muted: var(
+      --_color-modes---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--light-gray: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--brand--neutral--lightest-gray: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--foreground--fg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--borders--border-color-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary: var(
+      --__base---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--buttons--button-primary-text: var(
+      --_color-modes---colors--brand--neutral--black
+    );
+    --_color-modes---colors--buttons--button-primary-hover: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary-hover: var(
+      --__base---colors--brand--neutral-dk-mode-alpha--light-gray
+    );
+    --_color-modes---colors--buttons--button-secondary: transparent;
+    --_color-modes---colors--buttons--button-secondary-text: var(
+      --_color-modes---colors--brand--neutral--lightest-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--lightest-gray: rgba(
+      245,
+      250,
+      255,
+      0.4
+    );
+    --_color-modes---colors--foreground--fg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--borders--border-accordion-item: rgba(
+      245,
+      250,
+      255,
+      0.5
+    );
+    --_color-modes---colors--brand--neutral--black: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--background--bg-color-primary: var(
+      --__base---colors--brand--neutral--black
+    );
+    --_color-modes---colors--text--text-footer: var(
+      --_color-modes---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-3: rgba(
+      12,
+      2,
+      11,
+      0.03
+    );
+    --_color-modes---colors--background--bg-color-brand-primary: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--background--bg-color-secondary: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--borders--border-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+    --_color-modes---colors--borders--border-color-brand-primary: var(
+      --__base---colors--brand--primary--purple-dm
+    );
+    --_color-modes---colors--brand--core--brand-gold: var(
+      --__base---colors--brand--primary--gold
+    );
+    --_color-modes---colors--brand--core--brand-purple: var(
+      --__base---colors--brand--primary--purple
+    );
+    --_color-modes---colors--brand--core--brand-orange: var(
+      --__base---colors--brand--primary--orange
+    );
+    --_color-modes---colors--brand--core--brand-pink: var(
+      --__base---colors--brand--primary--pink
+    );
+    --_color-modes---colors--brand--core--brand-magenta: var(
+      --__base---colors--brand--primary--magenta
+    );
+    --_color-modes---colors--brand--core--brand-brightblue: var(
+      --__base---colors--brand--primary--bright-blue-lm
+    );
+    --_color-modes---colors--brand--core--brand-darkteal: var(
+      --__base---colors--brand--primary--dark-teal
+    );
+    --_color-modes---colors--brand--core--brand-darkblue: var(
+      --__base---colors--brand--primary--dark-blue
+    );
+    --_color-modes---colors--brand--neutral--med-gray: var(
+      --__base---colors--brand--neutral--med-gray
+    );
+    --_color-modes---colors--brand--neutral--dark-gray: var(
+      --__base---colors--brand--neutral--dark-gray
+    );
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--light-gray: #dae5ee33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--dark-gray: #2f292e33;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--med-gray: #807e8533;
+    --_color-modes---colors--brand--neutral-dk-mode-alpha--black-20: rgba(
+      12,
+      2,
+      11,
+      0.2
+    );
+    --_color-modes---colors--effects--shadow: #00000080;
+    --_color-modes---colors--foreground--fg-color-secondary: var(
+      --__base---colors--brand--neutral--light-gray
+    );
+  }
+  .seo_copy {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    color: var(--_color-modes---colors--text--text-primary);
+    font-size: var(--_typography---font-size--text-md);
+    line-height: 1.375rem;
+    letter-spacing: -0.01rem;
+  }
+  .spacer-text {
+    height: var(--_spacing---text-spacer);
+  }
+  @media screen and (min-width: 1280px) {
+    .services_accordion-wrapper {
+      display: grid;
+      grid-auto-columns: 1fr;
+      grid-column-gap: 16px;
+      grid-row-gap: 16px;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto;
+    }
+    .section.section_services {
+      min-height: 112rem;
+    }
+    .section.section_contact {
+      background-color: var(
+        --_color-modes---colors--brand--neutral-dk-mode-alpha--black-3
+      );
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .margin-top {
+      margin-right: 0rem;
+      margin-bottom: 0rem;
+      margin-left: 0rem;
+    }
+    .spacer-xhuge {
+      padding-top: 6rem;
+    }
+    .spacer-large {
+      padding-top: 2.5rem;
+    }
+    .hero_content {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+    .heading-title {
+      font-size: var(--_typography---font-size--display-lg);
+      line-height: var(--_typography---line-height--display-lg);
+    }
+    .sevices_header {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      grid-template-columns: 1fr;
+    }
+    .services_accordion-wrapper {
+      display: block;
+      grid-template-columns: 1fr;
+    }
+    .footer_wrapper {
+      flex-direction: column-reverse;
+      flex-wrap: nowrap;
+    }
+    .footer_copyright {
+      text-align: center;
+    }
+    .footer_links {
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+    }
+    .section.section_work {
+      display: flex;
+      min-height: 0rem;
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+    .services_header-media {
+      width: 100%;
+      margin-bottom: 4rem;
+    }
+    .services_header-content {
+      align-self: flex-start;
+    }
+    .services_header-image {
+      max-width: none;
+    }
+    .team_member-container {
+      grid-column-gap: 3rem;
+      grid-row-gap: 3rem;
+    }
+    .team_member-container.padding-section-medium {
+      grid-column-gap: 3rem;
+      grid-row-gap: 3rem;
+    }
+    .team_member-portrait_image {
+      max-width: 17.25rem;
+    }
+    .team_member-bio {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      grid-column-gap: var(--_spacing---spacing-3xl);
+      grid-row-gap: var(--_spacing---spacing-3xl);
+    }
+    .team_member-quote_mobile {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      grid-row-gap: 1.5rem;
+    }
+    .flex-row {
+      display: flex;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .padding-small {
+      padding: 1.25rem;
+    }
+    .button-group {
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+    }
+    .margin-top {
+      margin-right: 0rem;
+      margin-bottom: 0rem;
+      margin-left: 0rem;
+    }
+    .spacer-xhuge {
+      padding-top: 4rem;
+    }
+    .spacer-large {
+      padding-top: 2rem;
+    }
+    .text-size-xlarge {
+      font-size: 1.125rem;
+    }
+    .navbar_container.padding-global.container-full.align-center {
+      padding-top: 0.875rem;
+      padding-bottom: 0.875rem;
+    }
+    .navbar_logo-image {
+      display: none;
+    }
+    .navbar_logo-image_mobile {
+      display: block;
+    }
+    .hero_content-wrapper {
+      grid-column-gap: 1.25rem;
+      grid-row-gap: 1.25rem;
+    }
+    .heading-title {
+      font-size: var(--_typography---font-size--display-sm);
+      line-height: var(--_typography---line-height--display-sm);
+      letter-spacing: -0.01875rem;
+    }
+    .header-content {
+      padding-right: 0rem;
+    }
+    .sevices_header {
+      width: 100%;
+      min-height: 0rem;
+    }
+    .accordion-item_button {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+    .accordion-icon {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+    .accordion-item-title {
+      font-size: var(--_typography---font-size--display-sm);
+      line-height: var(--_typography---font-size--display-sm);
+    }
+    .accordion-item_button-wrapper {
+      padding-right: 0.65rem;
+      padding-left: 0.65rem;
+    }
+    .contact_container {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+    .contact-form_email {
+      display: block;
+    }
+    .contact-form_success-wrap {
+      min-height: 0rem;
+    }
+    .footer_links {
+      width: 100%;
+    }
+    .footer_link {
+      border-right-style: none;
+    }
+    .footer_link-list {
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      grid-column-gap: 0.875rem;
+      grid-row-gap: 0.875rem;
+      border-right: 0.5px solid var(--_color-modes---colors--text--text-footer);
+    }
+    .team_member-intro {
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+    }
+    .team_member-quote_mobile {
+      grid-row-gap: 0rem;
+    }
+    .display-text {
+      font-size: var(--_typography---font-size--display-sm);
+      line-height: var(--_typography---line-height--display-sm);
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .margin-top {
+      margin-right: 0rem;
+      margin-bottom: 0rem;
+      margin-left: 0rem;
+    }
+    .footer_links {
+      width: 100%;
+    }
+    .section.section_services:where(
+        .w-variant-d442aba8-2053-b4fe-f046-65ae1c277cc3
+      ) {
+      background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg);
+      background-position: 0px 0px;
+      background-size: auto;
+    }
+  }

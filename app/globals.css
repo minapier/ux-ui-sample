@@ -1,6 +1,237 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --colors-black: #000000;
+  --colors-white: #ffffff;
+  --colors-orange-100: #fffaf0;
+  --colors-orange-200: #feebc8;
+  --colors-orange-300: #fbd38d;
+  --colors-orange-400: #f6ad55;
+  --colors-orange-500: #ed8936;
+  --colors-orange-600: #dd6b20;
+  --colors-orange-700: #c05621;
+  --colors-orange-800: #9c4221;
+  --colors-orange-900: #7b341e;
+  --colors-text-text-primary: #100c05;
+  --colors-text-text-secondary: #967b3b;
+  --colors-background-bg-color-primary: #faf7ef;
+  --colors-background-bg-color-secondary: #f0e5ca;
+  --colors-background-bg-color-brand-primary: #3e963b;
+  --colors-background-bg-color-brand-secondary: #b72025;
+  --colors-foreground-fg-color-primary: #100c05;
+  --colors-foreground-fg-color-secondary: #201909;
+  --colors-foreground-fg-color-brand-primary: #3e963b;
+  --colors-foreground-fg-color-brand-secondary: #b72025;
+  --colors-borders-border-color-primary: #100c05;
+  --colors-borders-border-color-secondary: #201909;
+  --colors-borders-border-color-brand-primary: #3e963b;
+  --colors-buttons-button-primary: #100c05;
+  --colors-buttons-button-primary-text: #100c05;
+  --colors-buttons-button-primary-hover: #2f292eff;
+  --colors-buttons-button-secondary-hover: rgba(150, 123, 59, 0.2);
+  --colors-effects-shadow: rgba(0, 0, 0, 0.5);
+  --colors-brand-core-brand-gold: #967b3b;
+  --colors-brand-core-brand-green: #3e963b;
+  --colors-brand-core-brand-red: #b72025;
+  --colors-brand-core-brand-accent-1: #265c24;
+  --colors-brand-core-brand-accent-2: #193d18;
+  --colors-brand-core-brand-accent-3: #0d1f0c;
+  --colors-brand-neutral-lightest: #faf7ef;
+  --colors-brand-neutral-dark-gray: #2f292eff;
+  --colors-brand-neutral-lightest-gray: #f5faffff;
+  --colors-brand-neutral-light-gray: #dae5eeff;
+  --colors-brand-neutral-light: #f0e5ca;
+  --colors-brand-neutral-med: #201909;
+  --colors-brand-neutral-dark: #100c05;
+  --colors-brand-neutral-black: #100c05;
+  --colors-brand-neutral-white: #faf7ef;
+  --colors-brand-neutral-ivory: #f0e5ca;
+  --colors-brand-neutral-earth: #201909;
+  --colors-brand-neutral-dk-mode-alpha-lightest-alpha: rgba(250, 247, 239, 0.2);
+  --colors-brand-neutral-dk-mode-alpha-light-alpha: rgba(240, 229, 202, 0.2);
+  --colors-brand-neutral-dk-mode-alpha-med-alpha: rgba(150, 123, 59, 0.2);
+  --colors-brand-neutral-dk-mode-alpha-dark-alpha: rgba(32, 25, 9, 0.2);
+  --colors-brand-neutral-dk-mode-alpha-black-alpha: rgba(16, 12, 5, 0.2);
+  --colors-brand-neutral-dk-mode-alpha-lightest-gray: rgba(250, 247, 239, 0.2);
+  --colors-brand-neutral-dk-mode-alpha-light-gray: rgba(250, 247, 239, 0.2);
+  --colors-brand-neutral-dk-mode-alpha-med-gray: rgba(250, 247, 239, 0.2);
+  --colors-brand-neutral-dk-mode-alpha-dark-gray: rgba(32, 25, 9, 0.2);
+  --colors-brand-neutral-dk-mode-alpha-black: rgba(16, 12, 5, 0.2);
+  --colors-brand-primary-scale-primary-50: #fbf4f4;
+  --colors-brand-primary-scale-primary-100: #edc7c9;
+  --colors-brand-primary-scale-primary-200: #e09fa1;
+  --colors-brand-primary-scale-primary-300: #d27578;
+  --colors-brand-primary-scale-primary-400: #c54a4e;
+  --colors-brand-primary-scale-primary-500: #b72025;
+  --colors-brand-primary-scale-primary-600: #921a1e;
+  --colors-brand-primary-scale-primary-700: #6e1316;
+  --colors-brand-primary-scale-primary-800: #490d0f;
+  --colors-brand-primary-scale-primary-900: #250607;
+  --colors-brand-primary-red: #b72025;
+  --colors-brand-primary-gold: #967b3b;
+  --colors-brand-primary-green: #3e963b;
+  --colors-brand-accent-green-tint-1: #8cc28a;
+  --colors-brand-accent-green-tint-2: #b2d6b1;
+  --colors-brand-accent-green-tint-3: #d9ebd8;
+  --colors-brand-accent-green-shade-1: #265c24;
+  --colors-brand-accent-green-shade-2: #193d18;
+  --colors-brand-accent-green-shade-3: #0d1f0c;
+  --dimensions-0: 0px;
+  --dimensions-1: 4px;
+  --dimensions-2: 8px;
+  --dimensions-3: 12px;
+  --dimensions-4: 16px;
+  --dimensions-5: 20px;
+  --dimensions-6: 24px;
+  --dimensions-7: 28px;
+  --dimensions-8: 32px;
+  --dimensions-9: 36px;
+  --dimensions-10: 40px;
+  --dimensions-11: 44px;
+  --dimensions-12: 48px;
+  --dimensions-13: 52px;
+  --dimensions-14: 56px;
+  --dimensions-15: 60px;
+  --dimensions-max: 9999px;
+  --composite-examples-typography-heading: extra-bold 28px/1.8 'Open Sans', sans-serif;
+  --composite-examples-typography-body: regular 16px/1.2 'Times New Roman', serif;
+  --transitions-emphasis: 300ms cubic-bezier(0.5, 0, 1, 1) 0ms;
+  --transitions-fade: 600ms cubic-bezier(0, 0, 0.5, 1) 0ms;
+  --transitions-easing-functions-accelerate: cubic-bezier(0.5, 0, 1, 1);
+  --transitions-easing-functions-decelerate: cubic-bezier(0, 0, 0.5, 1);
+  --transitions-durations-instant: 0ms;
+  --transitions-durations-short: 100ms;
+  --transitions-durations-medium: 300ms;
+  --transitions-durations-long: 600ms;
+  --borders-heavy: 4px solid #000000;
+  --borders-wireframe: 8px dashed #dd6b20;
+  --borders-styles-solid: solid;
+  --borders-styles-dashed: dashed;
+  --shadows-sm: 0px 4px 12px #000000;
+  --shadows-lg: 0px 8px 16px #000000;
+  --shadows-multi: 0px 4px 12px #000000, 0px 8px 16px #000000;
+  --spacing-1-1px: -1;
+  --spacing-2-2px: -2;
+  --spacing-4-4px: -4;
+  --spacing-6-6px: -6;
+  --spacing-8-8px: -8;
+  --spacing-10-10px: -10;
+  --spacing-12-12px: -12;
+  --spacing-0-0px: 0;
+  --spacing-0-5-2px: 2;
+  --spacing-1-4px: 4;
+  --spacing-1-5-6px: 6;
+  --spacing-2-8px: 8;
+  --spacing-3-12px: 12;
+  --spacing-4-16px: 16;
+  --spacing-5-20px: 20;
+  --spacing-6-24px: 24;
+  --spacing-8-32px: 32;
+  --spacing-10-40px: 40;
+  --spacing-12-48px: 48;
+  --spacing-16-64px: 64;
+  --spacing-20-80px: 80;
+  --spacing-24-96px: 96;
+  --spacing-32-128px: 128;
+  --spacing-40-160px: 160;
+  --spacing-48-192px: 192;
+  --spacing-56-224px: 224;
+  --spacing-64-256px: 256;
+  --spacing-80-320px: 320;
+  --spacing-96-384px: 384;
+  --spacing-120-480px: 480;
+  --spacing-140-560px: 560;
+  --spacing-160-640px: 640;
+  --spacing-180-720px: 720;
+  --spacing-192-768px: 768;
+  --spacing-256-1-024px: 1024;
+  --spacing-320-1-280px: 1280;
+  --spacing-340-1-376px: 1376;
+  --spacing-360-1-440px: 1440;
+  --spacing-400-1-600px: 1600;
+  --spacing-440-1-760px: 1760;
+  --spacing-480-1-920px: 1920;
+  --radius-none: 0px;
+  --radius-xs: 12px;
+  --radius-small: 24px;
+  --radius-large: 120px;
+  --radius-full: 9999px;
+  --typography-button-text: 500 18px/1.2 Inter;
+  --typography-badge-label: 400 16px/1.2 Inter;
+  --typography-featured-service: 600 22px/1.375 Bookmania;
+  --typography-fs-mobile: 600 18px/1.375 Bookmania;
+  --typography-bl-mobile: 400 14px/1.2 Inter;
+  --typography-display-3xl-regular: 400 96px/6.25 'WF Visual Sans';
+  --typography-display-3xl-medium: 400 96px/6.25 'WF Visual Sans';
+  --typography-display-3xl-semibold: 600 96px/6.25 'WF Visual Sans';
+  --typography-display-3xl-bold: 700 96px/6.25 'WF Visual Sans';
+  --typography-display-2xl-regular: 400 72px/4.75 'WF Visual Sans';
+  --typography-display-2xl-medium: 400 72px/4.75 'WF Visual Sans';
+  --typography-display-2xl-semibold: 600 72px/4.75 'WF Visual Sans';
+  --typography-display-2xl-bold: 700 72px/4.75 'WF Visual Sans';
+  --typography-display-1xl-regular: 400 60px/4 'WF Visual Sans';
+  --typography-display-1xl-medium: 400 60px/4 'WF Visual Sans';
+  --typography-display-1xl-semibold: 600 60px/4 'WF Visual Sans';
+  --typography-display-1xl-bold: 700 60px/4 'WF Visual Sans';
+  --typography-display-xl-regular: 400 54px/3.625 'WF Visual Sans';
+  --typography-display-xl-medium: 400 54px/3.625 'WF Visual Sans';
+  --typography-display-xl-semibold: 600 54px/3.625 'WF Visual Sans';
+  --typography-display-xl-bold: 600 54px/3.625 'WF Visual Sans';
+  --typography-display-lg-regular: 400 48px/3.25 'WF Visual Sans';
+  --typography-display-lg-medium: 400 48px/3 'WF Visual Sans';
+  --typography-display-lg-semibold: 600 48px/3.25 'WF Visual Sans';
+  --typography-display-lg-bold: 700 48px/3.25 'WF Visual Sans';
+  --typography-display-md-regular: 400 36px/2.5 'WF Visual Sans';
+  --typography-display-md-medium: 400 36px/2.5 'WF Visual Sans';
+  --typography-display-md-semibold: 600 36px/2.5 'WF Visual Sans';
+  --typography-display-md-bold: 700 36px/2.5 'WF Visual Sans';
+  --typography-display-sm-regular: 400 30px/2.125 'WF Visual Sans';
+  --typography-display-sm-medium: 400 30px/2.125 'WF Visual Sans';
+  --typography-display-sm-semibold: 600 30px/2.125 'WF Visual Sans';
+  --typography-display-sm-bold: 700 30px/2.125 'WF Visual Sans';
+  --typography-display-xs-regular: 400 24px/1.875 'WF Visual Sans';
+  --typography-display-xs-medium: 400 24px/1.875 'WF Visual Sans';
+  --typography-display-xs-semibold: 600 24px/1.875 'WF Visual Sans';
+  --typography-display-xs-bold: 700 24px/1.875 'WF Visual Sans';
+  --typography-text-xl-regular: 400 20px/1.625 'WF Visual Sans';
+  --typography-text-xl-medium: 500 20px/1.75 'WF Visual Sans';
+  --typography-text-xl-semibold: 600 20px/1.75 'WF Visual Sans';
+  --typography-text-xl-bold: 700 20px/1.75 'WF Visual Sans';
+  --typography-text-lg-regular: 400 18px/1.625 'WF Visual Sans';
+  --typography-text-lg-medium: 500 18px/1.625 'WF Visual Sans';
+  --typography-text-lg-semibold: 600 18px/1.625 'WF Visual Sans';
+  --typography-text-lg-bold: 700 18px/1.625 'WF Visual Sans';
+  --typography-text-md-regular: 400 16px/1.125 'WF Visual Sans';
+  --typography-text-md-medium: 500 16px/1.125 'WF Visual Sans';
+  --typography-text-md-semibold: 600 16px/1.125 'WF Visual Sans';
+  --typography-text-md-bold: 700 16px/1.125 'WF Visual Sans';
+  --typography-text-sm-regular: 400 14px/1 'WF Visual Sans';
+  --typography-text-sm-medium: 500 14px/1 'WF Visual Sans';
+  --typography-text-sm-semibold: 600 14px/1 'WF Visual Sans';
+  --typography-text-sm-bold: 700 14px/1 'WF Visual Sans';
+  --typography-text-xs-regular: 400 12px/0.875 'WF Visual Sans';
+  --typography-text-xs-medium: 500 12px/0.875 'WF Visual Sans';
+  --typography-text-xs-semibold: 600 12px/0.875 'WF Visual Sans';
+  --typography-text-xs-bold: 700 12px/0.875 'WF Visual Sans';
+  --typography-tags-h1-display: 600 96px/6.25 'WF Visual Sans';
+  --typography-tags-h1: 600 72px/4.75 'WF Visual Sans';
+  --typography-tags-h2: 600 60px/4 'WF Visual Sans';
+  --typography-tags-h3: 600 48px/3.25 'WF Visual Sans';
+  --typography-tags-h4: 600 36px/2.5 'WF Visual Sans';
+  --typography-tags-h5: 400 30px/2.125 'WF Visual Sans';
+  --typography-tags-h6: 400 26px/1.875 'WF Visual Sans';
+  --typography-tags-p: 400 16px/1.125 'WF Visual Sans';
+  --text-fonts-serif: 'Times New Roman', serif;
+  --text-fonts-sans: 'Open Sans', sans-serif;
+  --text-sizes-heading: 28px;
+  --text-sizes-body: 16px;
+  --text-weights-light: thin;
+  --text-weights-regular: regular;
+  --text-weights-bold: extra-bold;
+  --text-line-heights-normal: 1.2;
+  --text-line-heights-large: 1.8;
+  --text-typography-heading: extra-bold 28px/1.8 'Open Sans', sans-serif;
+  --text-typography-body: regular 16px/1.2 'Times New Roman', serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,11 +255,18 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--colors-text-text-primary);
+  background: var(--colors-background-bg-color-primary);
+  font-size: var(--text-sizes-body);
+  line-height: var(--text-line-heights-normal);
+  margin: 0;
+  /* font-family: Arial, Helvetica, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5rem;
 }
 
 * {
@@ -37,13 +275,32 @@ body {
   margin: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.page-wrapper {
+  overflow: hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.main-wrapper {
+  width: 100%;
+  max-width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 100%;
+}
+
+.padding-global {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }

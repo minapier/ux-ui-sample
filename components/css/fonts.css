@@ -1,0 +1,48 @@
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Chivo+Mono:300,400,500,600,700&subset=latin");
+
+@font-face {
+  font-family: "WF Visual Sans";
+  src: url("https://cdn.prod.website-files.com/69244a514e5720feec5d3ba9/695bf3c05d8b57d4d3bba524_WFVisualSans-SemiBold.woff2")
+      format("woff2"),
+    url("https://cdn.prod.website-files.com/69244a514e5720feec5d3ba9/695bf3c0d070f41aa3e068ba_WFVisualSans-SemiBold.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/69244a514e5720feec5d3ba9/695bf3c0e0c5cb178dccfbb8_WFVisualSans-SemiBoldText.ttf")
+      format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "WF Visual Sans";
+  src: url("https://cdn.prod.website-files.com/69244a514e5720feec5d3ba9/695bf3c004e94544b2fdb502_WFVisualSans-Medium.woff2")
+      format("woff2"),
+    url("https://cdn.prod.website-files.com/69244a514e5720feec5d3ba9/695bf3c091a4d66c3a33a7be_WFVisualSans-Medium.ttf")
+      format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Switzer Variable";
+  src: url("https://cdn.prod.website-files.com/69244a514e5720feec5d3ba9/695c1ba3479f4ca6de23c958_Switzer-Variable.woff2")
+      format("woff2"),
+    url("https://cdn.prod.website-files.com/69244a514e5720feec5d3ba9/695c1ba333fda6c48b341efb_Switzer-Variable.eot")
+      format("embedded-opentype"),
+    url("https://cdn.prod.website-files.com/69244a514e5720feec5d3ba9/695c1ba3989997255095d04c_Switzer-Variable.woff")
+      format("woff"),
+    url("https://cdn.prod.website-files.com/69244a514e5720feec5d3ba9/695c1ba3fa32182eb80ab20a_Switzer-Variable.ttf")
+      format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "WF Visual Sans";
+  src: url("https://cdn.prod.website-files.com/69244a514e5720feec5d3ba9/695bf3c0620fa42204624bf4_WFVisualSans-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

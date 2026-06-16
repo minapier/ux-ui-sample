@@ -1,0 +1,754 @@
+{
+  "colors": {
+    "brand": {
+      "primary": {
+        "red": {
+          "$type": "color",
+          "$value": "rgb(183, 32, 37)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:51",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {
+                "WEB": "Colors/Brand/Primary/Pink"
+              }
+            }
+          }
+        },
+        "gold": {
+          "$type": "color",
+          "$value": "rgb(150, 123, 59)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:52",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "green": {
+          "$type": "color",
+          "$value": "rgb(62, 150, 59)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:53",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "neutral": {
+        "white": {
+          "$type": "color",
+          "$value": "rgb(250, 247, 239)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:54",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "ivory": {
+          "$type": "color",
+          "$value": "rgb(240, 229, 202)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:55",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "earth": {
+          "$type": "color",
+          "$value": "rgb(32, 25, 9)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:56",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "black": {
+          "$type": "color",
+          "$value": "rgb(16, 12, 5)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:57",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "neutral-dk-mode-alpha": {
+        "lightest-gray": {
+          "$type": "color",
+          "$value": "rgba(250, 247, 239, 0.2)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:58",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "light-gray": {
+          "$type": "color",
+          "$value": "rgba(250, 247, 239, 0.2)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:59",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "med-gray": {
+          "$type": "color",
+          "$value": "rgba(250, 247, 239, 0.2)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:60",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "dark-gray": {
+          "$type": "color",
+          "$value": "rgba(32, 25, 9, 0.2)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:61",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "black": {
+          "$type": "color",
+          "$value": "rgba(16, 12, 5, 0.2)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:62",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "accent": {
+        "green-tint-1": {
+          "$type": "color",
+          "$value": "rgb(140, 194, 138)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:63",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "green-tint-2": {
+          "$type": "color",
+          "$value": "rgb(178, 214, 177)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:64",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "green-tint-3": {
+          "$type": "color",
+          "$value": "rgb(217, 235, 216)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:65",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "green-shade-1": {
+          "$type": "color",
+          "$value": "rgb(38, 92, 36)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:66",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "green-shade-2": {
+          "$type": "color",
+          "$value": "rgb(25, 61, 24)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:67",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "green-shade-3": {
+          "$type": "color",
+          "$value": "rgb(13, 31, 12)",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:16579:68",
+              "collection": "VariableCollectionId:16579:50",
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        }
+      }
+    },
+    "effects": {
+      "shadow": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.5)",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:16579:69",
+            "collection": "VariableCollectionId:16579:50",
+            "scopes": [],
+            "codeSyntax": {}
+          }
+        }
+      }
+    }
+  },
+  "spacing": {
+    "1-1px": {
+      "$type": "number",
+      "$value": -1,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:70",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "2-2px": {
+      "$type": "number",
+      "$value": -2,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:71",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "4-4px": {
+      "$type": "number",
+      "$value": -4,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:72",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "6-6px": {
+      "$type": "number",
+      "$value": -6,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:73",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "8-8px": {
+      "$type": "number",
+      "$value": -8,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:74",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "10-10px": {
+      "$type": "number",
+      "$value": -10,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:75",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "12-12px": {
+      "$type": "number",
+      "$value": -12,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:76",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "0-0px": {
+      "$type": "number",
+      "$value": 0,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:77",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "0-5-2px": {
+      "$type": "number",
+      "$value": 2,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:78",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "1-4px": {
+      "$type": "number",
+      "$value": 4,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:79",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "1-5-6px": {
+      "$type": "number",
+      "$value": 6,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:80",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "2-8px": {
+      "$type": "number",
+      "$value": 8,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:81",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "3-12px": {
+      "$type": "number",
+      "$value": 12,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:82",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "4-16px": {
+      "$type": "number",
+      "$value": 16,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:83",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "5-20px": {
+      "$type": "number",
+      "$value": 20,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:84",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "6-24px": {
+      "$type": "number",
+      "$value": 24,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:85",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "8-32px": {
+      "$type": "number",
+      "$value": 32,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:86",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "10-40px": {
+      "$type": "number",
+      "$value": 40,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:87",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "12-48px": {
+      "$type": "number",
+      "$value": 48,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:88",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "16-64px": {
+      "$type": "number",
+      "$value": 64,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:89",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "20-80px": {
+      "$type": "number",
+      "$value": 80,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:90",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "24-96px": {
+      "$type": "number",
+      "$value": 96,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:91",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "32-128px": {
+      "$type": "number",
+      "$value": 128,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:92",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "40-160px": {
+      "$type": "number",
+      "$value": 160,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:93",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "48-192px": {
+      "$type": "number",
+      "$value": 192,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:94",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "56-224px": {
+      "$type": "number",
+      "$value": 224,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:95",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "64-256px": {
+      "$type": "number",
+      "$value": 256,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:96",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "80-320px": {
+      "$type": "number",
+      "$value": 320,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:97",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "96-384px": {
+      "$type": "number",
+      "$value": 384,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:98",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "120-480px": {
+      "$type": "number",
+      "$value": 480,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:99",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "140-560px": {
+      "$type": "number",
+      "$value": 560,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:100",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "160-640px": {
+      "$type": "number",
+      "$value": 640,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:101",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "180-720px": {
+      "$type": "number",
+      "$value": 720,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:102",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "192-768px": {
+      "$type": "number",
+      "$value": 768,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:103",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "256-1-024px": {
+      "$type": "number",
+      "$value": 1024,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:104",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "320-1-280px": {
+      "$type": "number",
+      "$value": 1280,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:105",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "340-1-376px": {
+      "$type": "number",
+      "$value": 1376,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:106",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "360-1-440px": {
+      "$type": "number",
+      "$value": 1440,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:107",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "400-1-600px": {
+      "$type": "number",
+      "$value": 1600,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:108",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "440-1-760px": {
+      "$type": "number",
+      "$value": 1760,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:109",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "480-1-920px": {
+      "$type": "number",
+      "$value": 1920,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:16579:110",
+          "collection": "VariableCollectionId:16579:50",
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "generator": {
+      "name": "Token Press",
+      "version": "2.3.1"
+    },
+    "figma": {
+      "collection": {
+        "id": "VariableCollectionId:16579:50",
+        "name": "_Base",
+        "defaultModeId": "16579:0"
+      },
+      "mode": "Value"
+    }
+  }
+}

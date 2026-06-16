@@ -1,0 +1,86 @@
+{
+  "radius-none": {
+    "$type": "dimension",
+    "$value": "0px",
+    "$extensions": {
+      "figma": {
+        "variableId": "VariableID:16579:167",
+        "collection": "VariableCollectionId:16579:166",
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      }
+    }
+  },
+  "radius-xs": {
+    "$type": "dimension",
+    "$value": "12px",
+    "$extensions": {
+      "figma": {
+        "variableId": "VariableID:16579:168",
+        "collection": "VariableCollectionId:16579:166",
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      }
+    }
+  },
+  "radius-small": {
+    "$type": "dimension",
+    "$value": "24px",
+    "$extensions": {
+      "figma": {
+        "variableId": "VariableID:16579:169",
+        "collection": "VariableCollectionId:16579:166",
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      }
+    }
+  },
+  "radius-large": {
+    "$type": "dimension",
+    "$value": "120px",
+    "$extensions": {
+      "figma": {
+        "variableId": "VariableID:16579:170",
+        "collection": "VariableCollectionId:16579:166",
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      }
+    }
+  },
+  "radius-full": {
+    "$type": "dimension",
+    "$value": "9999px",
+    "$extensions": {
+      "figma": {
+        "variableId": "VariableID:16579:171",
+        "collection": "VariableCollectionId:16579:166",
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      }
+    }
+  },
+  "$extensions": {
+    "generator": {
+      "name": "Token Press",
+      "version": "2.3.1"
+    },
+    "figma": {
+      "collection": {
+        "id": "VariableCollectionId:16579:166",
+        "name": "Radius",
+        "defaultModeId": "16579:6"
+      },
+      "mode": "Mode 1"
+    }
+  }
+}

@@ -1,0 +1,329 @@
+:root {
+  --_typography---font-family--font-family-body: "WF Visual Sans", Arial,
+    sans-serif;
+  --_color-modes---colors--text--text-primary: var(
+    --__base---colors--brand--neutral--black
+  );
+  --_typography---font-family--font-family-display: "WF Visual Sans", Arial,
+    sans-serif;
+  --_htmltags---font-size--h1: var(--_typography---font-size--display-2xl);
+  --_htmltags---line-height--h1: var(--_typography---line-height--display-2xl);
+  --_typography---font-weight--semibold: 600;
+  --_htmltags---font-size--h2: var(--_typography---font-size--display-1xl);
+  --_htmltags---line-height--h2: var(--_typography---line-height--display-1xl);
+  --_htmltags---font-size--h3: var(--_typography---font-size--display-lg);
+  --_htmltags---line-height--h3: var(--_typography---line-height--display-lg);
+  --_htmltags---font-size--h4: var(--_typography---font-size--display-md);
+  --_htmltags---line-height--h4: var(--_typography---line-height--display-md);
+  --_htmltags---font-size--h5: var(--_typography---font-size--display-sm);
+  --_htmltags---line-height--h5: var(--_typography---line-height--display-sm);
+  --_typography---font-weight--medium: 500;
+  --_htmltags---font-size--h6: var(--_typography---font-size--display-xs);
+  --_htmltags---line-height--h6: var(--_typography---line-height--display-xs);
+  --_htmltags---font-size--p: var(--_typography---font-size--text-xl);
+  --_htmltags---line-height--p: var(--_typography---line-height--text-xl);
+  --_typography---font-weight--normal: 400;
+  --_color-modes---colors--brand--core--brand-medblue: var(
+    --__base---colors--brand--primary--med-blue
+  );
+  --_htmltags---font-size--a: var(--_typography---font-size--text-lg);
+  --_typography---font-size--text-md: 1rem;
+  --_typography---line-height--text-md: 1.125rem;
+  --_color-modes---colors--text--text-muted: var(
+    --_color-modes---colors--brand--neutral--med-gray
+  );
+  --_color-modes---colors--brand--neutral--light-gray: var(
+    --__base---colors--brand--neutral--light-gray
+  );
+  --_widths---width-xl: 48rem;
+  --_containers---container-padding: 2rem;
+  --__base---colors--brand--neutral--med-gray: #807e85ff;
+  --_radius---radius-xxs: 0.375rem;
+  --_color-modes---colors--brand--neutral--lightest-gray: var(
+    --__base---colors--brand--neutral--lightest-gray
+  );
+  --_color-modes---colors--foreground--fg-color-primary: var(
+    --__base---colors--brand--neutral--black
+  );
+  --_typography---font-size--text-sm: 0.875rem;
+  --_typography---line-height--text-sm: 1rem;
+  --_color-modes---colors--borders--border-color-primary: var(
+    --__base---colors--brand--neutral--black
+  );
+  --_color-modes---colors--buttons--button-primary: var(
+    --__base---colors--brand--neutral--black
+  );
+  --_color-modes---colors--buttons--button-primary-text: var(
+    --__base---colors--brand--neutral--lightest-gray
+  );
+  --_color-modes---colors--buttons--button-primary-hover: var(
+    --__base---colors--brand--neutral--dark-gray
+  );
+  --_color-modes---colors--buttons--button-secondary-hover: var(
+    --__base---colors--brand--neutral-dk-mode-alpha--light-gray
+  );
+  --__base---colors--brand--neutral--black: #0c020bff;
+  --__base---colors--brand--neutral--dark-gray: #2f292eff;
+  --__base---colors--brand--neutral--lightest-gray: #f5faffff;
+  --__base---colors--brand--neutral--light-gray: #dae5eeff;
+  --_color-modes---colors--buttons--button-secondary: transparent;
+  --_color-modes---colors--buttons--button-secondary-text: var(
+    --_color-modes---colors--brand--neutral--black
+  );
+  --__base---colors--brand--neutral-dk-mode-alpha--light-gray: #dae5ee33;
+  --_typography---font-size--text-xl: 1.25rem;
+  --_typography---line-height--text-xl: 1.875rem;
+  --_typography---font-family--font-family-alt: "Chivo Mono", sans-serif;
+  --_color-modes---colors--brand--neutral-dk-mode-alpha--lightest-gray: rgba(
+    245,
+    250,
+    255,
+    0.4
+  );
+  --_containers---container-full-width-desktop: 90rem;
+  --_color-modes---colors--foreground--fg-color-brand-primary: var(
+    --__base---colors--brand--primary--purple
+  );
+  --_typography---font-size--display-2xl: 4.5rem;
+  --_typography---line-height--display-2xl: 4.75rem;
+  --_radius---radius-full: 9999rem;
+  --_typography---line-height--display-xl: 3.625rem;
+  --_typography---font-size--display-lg: 3rem;
+  --_typography---line-height--display-lg: 3.25rem;
+  --_typography---font-size--display-sm: 1.875rem;
+  --_typography---line-height--display-sm: 2.125rem;
+  --_color-modes---colors--borders--border-accordion-item: rgba(12, 2, 11, 0.5);
+  --_typography---font-size--display-md: 2.25rem;
+  --_typography---line-height--display-md: 2.5rem;
+  --_radius---radius-small: 1.5rem;
+  --_color-modes---colors--brand--neutral--black: var(
+    --__base---colors--brand--neutral--black
+  );
+  --_color-modes---colors--background--bg-color-primary: var(
+    --__base---colors--brand--neutral--lightest-gray
+  );
+  --_color-modes---colors--text--text-footer: var(
+    --_color-modes---colors--brand--neutral--dark-gray
+  );
+  --__base---colors--brand--neutral-dk-mode-alpha--med-gray: #807e8533;
+  --_color-modes---colors--brand--neutral-dk-mode-alpha--black-3: rgba(
+    12,
+    2,
+    11,
+    0.03
+  );
+  --_typography---font-size--display-xs: 1.5rem;
+  --_typography---line-height--display-xs: 1.875rem;
+  --_radius---radius-large: 7.5rem;
+  --_spacing---spacing-7xl: 4rem;
+  --_spacing---spacing-3xl: 1.5rem;
+  --_typography---font-size--display-3xl: 6rem;
+  --_typography---line-height--display-3xl: 6.25rem;
+  --_spacing---section-spacer: 7.5rem;
+  --_spacing---text-spacer: 2.5rem;
+  --_radius---radius-none: 0px;
+  --_radius---radius-xs: 0.75rem;
+  --_elements---visible: 100px;
+  --_htmltags---font-size--h1-display: var(
+    --_typography---font-size--display-3xl
+  );
+  --_elements---hidden: 0px;
+  --_radius---radius-xlarge: 15rem;
+  --_radius---radius-medium: 4rem;
+  --_htmltags---line-height--h1-display: var(
+    --_typography---line-height--display-3xl
+  );
+  --_spacing---spacing-11xl: 10rem;
+  --_spacing---spacing-10xl: 8rem;
+  --_spacing---spacing-9xl: 6rem;
+  --_spacing---spacing-8xl: 5rem;
+  --_spacing---spacing-6xl: 3rem;
+  --_spacing---spacing-5xl: 2.5rem;
+  --_spacing---spacing-4xl: 2rem;
+  --_spacing---spacing-2xl: 1.25rem;
+  --_spacing---spacing-xl: 1rem;
+  --_spacing---spacing-lg: 0.75rem;
+  --_spacing---spacing-md: 0.5rem;
+  --_spacing---spacing-sm: 0.375rem;
+  --_spacing---spacing-xs: 0.25rem;
+  --_spacing---spacing-xxs: 0.125rem;
+  --_spacing---spacing-none: 0px;
+  --_spacing---spacing-xxxs: -0.0625rem;
+  --_spacing---spacing-neg-xxs: -0.125rem;
+  --_spacing---spacing-neg-xs: -0.25rem;
+  --_spacing---spacing-neg-sm: -0.375rem;
+  --_spacing---spacing-neg-md: -0.5rem;
+  --_spacing---spacing-neg-5xl: -0.625rem;
+  --_spacing---spacing-neg-6xl: -0.75rem;
+  --_spacing---navbar-offset: 6.125rem;
+  --_spacing---section-padding: 5rem;
+  --_widths---width-6xl: 120rem;
+  --_widths---width-5xl: 100rem;
+  --_widths---width-4xl: 90rem;
+  --_widths---width-3xl: 80rem;
+  --_widths---width-2xl: 64rem;
+  --_widths---width-lg: 40rem;
+  --_widths---width-md: 35rem;
+  --_widths---width-sm: 30rem;
+  --_containers---container-max-width-desktop: 85rem;
+  --_widths---width-xs: 24rem;
+  --_widths---width-xxs: 20rem;
+  --_widths---paragraph-max-width: 45rem;
+  --_containers---container-large: 85rem;
+  --_containers---container-small: 30rem;
+  --_containers---container-medium: 48rem;
+  --_containers---container-radius-small: var(--_radius---radius-xs);
+  --_containers---container-radius-large: var(--_radius---radius-large);
+  --_containers---size: 0px;
+  --_color-modes---colors--background--bg-color-brand-primary: var(
+    --__base---colors--brand--primary--purple-dm
+  );
+  --_containers---section-padding: 7.5rem;
+  --_color-modes---colors--background--bg-color-secondary: var(
+    --__base---colors--brand--neutral--light-gray
+  );
+  --_color-modes---colors--borders--border-color-secondary: var(
+    --__base---colors--brand--neutral--dark-gray
+  );
+  --_color-modes---colors--borders--border-color-brand-primary: var(
+    --__base---colors--brand--primary--purple
+  );
+  --_color-modes---colors--brand--core--brand-gold: var(
+    --__base---colors--brand--primary--gold
+  );
+  --_color-modes---colors--brand--core--brand-purple: var(
+    --__base---colors--brand--primary--purple
+  );
+  --_color-modes---colors--brand--core--brand-orange: var(
+    --__base---colors--brand--primary--orange
+  );
+  --_color-modes---colors--brand--core--brand-pink: var(
+    --__base---colors--brand--primary--pink
+  );
+  --_color-modes---colors--brand--core--brand-magenta: var(
+    --__base---colors--brand--primary--magenta
+  );
+  --_color-modes---colors--brand--core--brand-brightblue: var(
+    --__base---colors--brand--primary--bright-blue-lm
+  );
+  --_color-modes---colors--brand--core--brand-darkteal: var(
+    --__base---colors--brand--primary--dark-teal
+  );
+  --_color-modes---colors--brand--core--brand-darkblue: var(
+    --__base---colors--brand--primary--dark-blue
+  );
+  --_color-modes---colors--brand--neutral--med-gray: var(
+    --__base---colors--brand--neutral--med-gray
+  );
+  --_color-modes---colors--brand--neutral--dark-gray: var(
+    --__base---colors--brand--neutral--dark-gray
+  );
+  --__base---colors--brand--neutral-dk-mode-alpha--lightest-gray: #f5faff33;
+  --__base---colors--brand--neutral-dk-mode-alpha--black: #0c020b33;
+  --__base---colors--brand--neutral-dk-mode-alpha--dark-gray: #2f292e33;
+  --_color-modes---colors--brand--neutral-dk-mode-alpha--light-gray: #dae5ee33;
+  --_color-modes---colors--brand--neutral-dk-mode-alpha--dark-gray: #2f292e33;
+  --_color-modes---colors--brand--neutral-dk-mode-alpha--med-gray: #807e8533;
+  --_color-modes---colors--brand--neutral-dk-mode-alpha--black-20: rgba(
+    12,
+    2,
+    11,
+    0.2
+  );
+  --__base---colors--brand--primary--pink: #f26dabff;
+  --__base---colors--brand--primary--dark-teal: #0c3748ff;
+  --__base---colors--brand--primary--med-blue: #176596ff;
+  --__base---colors--brand--primary--pink-dm: #f9b6d5ff;
+  --__base---colors--brand--primary--dark-blue: #06142fff;
+  --__base---colors--brand--primary--dark-blue-dm: #a1a4afff;
+  --__base---colors--brand--primary--magenta: #ac1856ff;
+  --__base---colors--brand--primary--gold: #e58f3aff;
+  --__base---colors--brand--primary--purple: #57104aff;
+  --__base---colors--brand--primary--bright-blue-dm: #89d8deff;
+  --__base---colors--brand--primary--bright-blue-lm: #12b0bcff;
+  --__base---colors--brand--primary--med-blue-dm: #8bb2cbff;
+  --__base---colors--brand--primary--purple-dm: #ccb7c8ff;
+  --__base---colors--brand--primary--magenta-dm: #d68cabff;
+  --__base---colors--brand--primary--gold-dm: #f2c79dff;
+  --__base---colors--brand--primary--dark-teal-dm: #9eafb6ff;
+  --__base---colors--brand--primary--orange-dm: #f2b08fff;
+  --__base---colors--brand--primary--orange: #e4601fff;
+  --__base---colors--effects--shadow: #00000080;
+  --_color-modes---colors--effects--shadow: #00000080;
+  --_color-modes---colors--foreground--fg-color-secondary: var(
+    --__base---colors--brand--neutral--light-gray
+  );
+  --_typography---font-family--font-family-billboard: "Switzer Variable", Arial,
+    sans-serif;
+  --_typography---font-size--display-1xl: 3.75rem;
+  --_typography---font-size--display-xl: 3.375rem;
+  --_typography---font-size--text-lg: 1.125rem;
+  --_typography---font-size--text-xs: 0.75rem;
+  --_typography---font-weight--bold: 600;
+  --_typography---line-height--display-1xl: 4rem;
+  --_typography---line-height--text-lg: 1.625rem;
+  --_typography---line-height--text-xs: 0.875rem;
+  --_placeholder---placeholder--bullet-list-items--bl-placeholder-3: "The human brain prefers symmetry",
+    "even when it claims not to";
+  --_placeholder---placeholder--bullet-list-items--bl-placeholder-1: "The average person scrolls the height of a skyscraper every day";
+  --_placeholder---placeholder--bullet-list-items--bl-placeholder-4: "People remember stories far better than statistics";
+  --_placeholder---placeholder--bullet-list-items--bl-placeholder-2: "Most users decide if a page feels right in less than half a second";
+  --_placeholder---placeholder--callouts--callout-placeholder-5: "Observation: Most of the web is built to be forgotten",
+    "yet we always remember how it made us feel.";
+  --_placeholder---placeholder--callouts--callout-placeholder-2: "Reminder: People do not read the internet; they feel their way through it.";
+  --_placeholder---placeholder--callouts--callout-placeholder-3: "Note: Even the quiet parts of a page say something.";
+  --_placeholder---placeholder--callouts--callout-placeholder-1: "Thought: Every click is a tiny act of curiosity.";
+  --_placeholder---placeholder--callouts--callout-placeholder-4: "Curiosity: A perfectly placed word can shift the entire tone.";
+  --_placeholder---placeholder--headlines--hp-2: "Ideas grow quicker when given space";
+  --_placeholder---placeholder--headlines--hp-5: "The web remembers more than we think";
+  --_placeholder---placeholder--headlines--hp-4: "Curiosity is the oldest form of navigation";
+  --_placeholder---placeholder--headlines--hp-10: "Beauty appears when chaos gets organized";
+  --_placeholder---placeholder--headlines--tagline-2: "Aligning digital experiences with your business goals to deliver strategic impact.";
+  --_placeholder---placeholder--headlines--tagline-1: "Strategic design for elevated web experiences.";
+  --_placeholder---placeholder--headlines--hp-6: "Even silence has a shape";
+  --_placeholder---placeholder--headlines--hp-3: "Every pattern starts as a question";
+  --_placeholder---placeholder--headlines--hp-8: "Meaning lives in the space between words";
+  --_placeholder---placeholder--headlines--hp-11: "A thought travels faster than a click";
+  --_placeholder---placeholder--headlines--hp-7: "Small details change the whole experience";
+  --_placeholder---placeholder--headlines--hp-9: "The internet never stops rearranging itself";
+  --_placeholder---placeholder--paragraphs--p1s: "People interpret digital spaces through instinct more than logic. A small shift in tone or spacing can change how something feels",
+    "even if the user cannot name why. Perception forms quietly and quickly.";
+  --_placeholder---placeholder--paragraphs--p4l: "There is a strange comfort in the predictability of patterns. Humans love a rhythm",
+    "even when they do not consciously notice it. The internet reflects this tendency with repeating shapes",
+    "familiar gestures",
+    "and recognizable flows. These patterns help people move confidently",
+    "even when the subject matter is new. It is a reminder that design",
+    "at its heart", "is another language", "one spoken mostly through instinct",
+    recognition, "and gentle persuasion.";
+  --_placeholder---placeholder--paragraphs--p2s: "The internet behaves like a living map. People wander",
+    pause,
+    "and follow small signals that guide their attention. What feels effortless is often the result of subtle cues working together in harmony.";
+  --_placeholder---placeholder--paragraphs--p1l: "People often assume the internet is made of data",
+    "but it is really made of decisions. Every click", color, headline,
+    "and pause reveals something about how humans move through ideas. The web behaves like a living environment",
+    "shifting with our habits", expectations,
+    "and attention spans. When you look closely",
+    "you can see patterns in how people explore", hesitate,
+    "or commit. It is less about technology and more about human behavior playing out in real time.";
+  --_placeholder---placeholder--paragraphs--p2l: "The digital world is full of tiny moments that shape perception. A sentence that feels calm",
+    "a layout that feels balanced", "a motion that feels welcoming",
+    "all of these create a subtle emotional tone. People rarely notice what guides them",
+    "yet they instinctively respond to it. The web is not just a network of pages; it is a collection of impressions that stack up quietly until they form an opinion someone cannot fully explain.";
+  --_placeholder---placeholder--paragraphs--p3l: "We think of screens as flat",
+    "but people experience them as places. They wander through content the way they move through rooms",
+    "paying attention to whatever catches their eye. Some areas feel familiar",
+    "others feel surprising. In this sense",
+    "digital spaces work a lot like architecture",
+    "because the best ones make you feel oriented", comfortable,
+    "and curious enough to keep exploring. It is fascinating how intangible structures can create such physical reactions.";
+  --_placeholder---placeholder--paragraphs--p4s: "Digital environments shape mood through rhythm and clarity. A calm layout encourages trust",
+    "while a crowded one increases friction. Even minor adjustments influence how users experience the story placed in front of them.";
+  --_placeholder---placeholder--paragraphs--p3s: "Every screen becomes a moment of interpretation. Users bring expectations",
+    habits, "and their own internal pace. When a layout feels natural",
+    "it is usually because it aligns with how people already think.";
+  --_placeholder---placeholder--ul-list-items--li-placeholder-3: "People explore digital spaces the way they explore cities";
+  --_placeholder---placeholder--ul-list-items--li-placeholder-4: "Simplicity is just complexity that learned how to behave";
+  --_placeholder---placeholder--ul-list-items--li-placeholder-1: "Attention is a currency we spend without noticing";
+  --_placeholder---placeholder--ul-list-items--li-placeholder-2: "Familiarity feels like trust",
+    "even when it is accidental";
+}
