@@ -1,0 +1,74 @@
+@import url("../../app/globals.css");
+
+.accordion {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  gap: 1.875rem;
+}
+.accordionItemSlot {
+  display: flex;
+  flex-flow: column;
+  gap: 1.875rem;
+}
+.accordionItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding-bottom: 1.875rem;
+  max-width: 86rem;
+  color: var(--colors-text-text-primary);
+  border-bottom: 1px solid var(--colors-borders-border-color-primary)
+}
+.accordionItemWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+}
+.accordionItemButtonWrapper {
+  padding: 0 0.8125rem;
+}
+.accordionItemButton {
+  width: 3rem;
+  height: 3rem;
+  aspect-ratio: 1 / 1;
+  position: relative;
+}
+.accordionItemIcon {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+}
+.accordionItemContent {
+  flex-flow: column;
+  flex: 1;
+  align-self: center;
+  display: flex;
+}
+.accordionItemTitleWrapper {
+  padding-top: 0.25rem;
+}
+.accordionItemTitle {
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.0225rem;
+  margin: 0;
+}
+.accordionItemCopyWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-top: 1.25rem;
+  overflow: hidden;
+  transition:
+    max-height 0.5s ease-in-out,
+    opacity 0.5s ease-in-out;
+  max-height: 500px;
+  height: auto;
+  opacity: 1;
+}
+.hideContent {
+  max-height: 0;
+  opacity: 0;
+}

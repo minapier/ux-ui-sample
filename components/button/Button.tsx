@@ -47,8 +47,8 @@ export default function Button({
   ctaAria = ctaLabel as string,
 }: ButtonProps) {
   return (
-    <Link
-      className={`${(ctaStyle.type === "button" || !ctaStyle.type) && style.button} ${ctaStyle.style === "secondary" && style.isSecondary}`}
+    <Link 
+      className={`${style.cta} ${(ctaStyle.type === "button" || !ctaStyle.type) ? style.button : ''} ${ctaStyle.style === "secondary" ? style.isSecondary : ''}`}
       href={ctaLink.href}
       target={ctaLink.target}
       aria-label={ctaAria}

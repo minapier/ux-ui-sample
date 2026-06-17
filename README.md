@@ -1,15 +1,5 @@
-# Basic Style Dictionary
+# UX/UI Design System Example
 
-This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run:
+This is a microsite for the style design of the Ria Scureman Designs site I developed in Webflow. The components were imported from Webflow into this Next.js site. This is primarily to show my skills as a React/Next.js and UX/UI developer.
 
-```bash
-npx style-dictionary build
-```
-
-Otherwise, install Style Dictionary locally for this project first, `cd` into this directory and run:
-
-```bash
-npm init -y && npm install style-dictionary
-```
-
-and then run the above command.
+The site is deployed here: rsd-style-design.netlify.app

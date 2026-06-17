@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Nav from "@/components/nav/Nav";
 
 const WFVisualSans = localFont({
   src: "../public/fonts/WFVisualSansVF.woff2",
@@ -19,8 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={WFVisualSans.className}>
+        <Nav />
         <main className="main-wrapper">
-          {" "}
           <div className="container padding-global">{children}</div>
         </main>
       </body>
