@@ -20,8 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={WFVisualSans.className}>
-        <Nav />
         <main className="main-wrapper">
+          <Nav />
           <div className="container padding-global">{children}</div>
         </main>
       </body>

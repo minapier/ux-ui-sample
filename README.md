@@ -1,6 +1,6 @@
 # UX/UI Design System Example
 
-This is a microsite for the style design of the Ria Scureman Designs site I developed in Webflow. The components were imported from Webflow into this Next.js site. This is primarily to show my skills as a React/Next.js and UX/UI developer.
+This is a microsite for the design system of the Ria Scureman Designs site I developed in Webflow. The components were imported from Webflow into this Next.js application. Design tokens were imported from Figma. This is primarily to show my skills as a React/Next.js and UX/UI developer.
 
 The site is deployed here: https://rsd-style-design.netlify.app
 
