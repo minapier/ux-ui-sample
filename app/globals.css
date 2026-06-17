@@ -295,7 +295,12 @@ h6, .h6 {
 }
 
 p {
+  font: var(--typography-tags-p);
   margin-bottom: 1rem;
+}
+
+a {
+  font: var(--typography-tags-p);
 }
 
 * {

@@ -4,9 +4,7 @@ import styles from "./accordion.module.css";
 import AccordionItem from "./AccordionItem";
 
 /**
- * 
- * @param {AccordionItemProps} items - Array of accordion item content objects.
- * @returns Accordion component displaying AccordionItem components.
+ * The Accordion component is used to display FAQ-type content. Click on the "+" icon to expand to see more information on the accordion item's topic.
  */
 export default function Accordion({ items }: AccordionItemProps) {
   return (

@@ -1,11 +1,14 @@
-/* Accordion item content object */
+/** Accordion item content object */
 export interface AccordionItemContent {
+  /** ID string for the accordion item */
   slug: string;
+  /** Title string for the accordion item */
   title: string;
+  /** Content to display when accordion item is opened. */
   content: string;
 };
 
-/* Accordion content object with an array of accordion item content objects. */
+/** Accordion content object with an array of accordion item content objects. */
 export interface AccordionItemProps {
   items: AccordionItemContent[];
 }

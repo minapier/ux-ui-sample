@@ -16,25 +16,25 @@ import style from "./button.module.css";
  * Props for {@link Button}
  */
 export type ButtonProps = {
-  /** Label for the first CTA button.*/
+  /** Label for the button.*/
   ctaLabel?: React.ReactNode;
-  /** Link for the first CTA button.*/
+  /** Link for the button.*/
   ctaLink?: {
     href: string;
     preload?: "prerender" | "prefetch" | "none";
     target?: "_self" | "_blank";
   };
+  /** Styling for the button. */
   ctaStyle?: {
     style?: "primary" | "secondary";
     type?: "link" | "button";
   };
+  /** ARIA label string for accessibility. */
   ctaAria?: string;
 };
 
 /**
- * Button
- *
- * @see {@link https://ria-scureman-designs.design.webflow.com | Source site in Webflow}
+ * Call-to-action component that can be styled as a button or a link.
  */
 export default function Button({
   ctaLabel = "Call to Action",

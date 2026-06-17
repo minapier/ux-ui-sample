@@ -18,7 +18,7 @@ export default function AccordionItem({
 
   const [showContent, setShowContent] = useState(false);
   return (
-    <div className={styles.accordionItem} role="region">
+    <div className={styles.accordionItem} role="region" aria-labelledby={slug}>
       <div
         className={styles.accordionItemWrapper}
         role="button"
