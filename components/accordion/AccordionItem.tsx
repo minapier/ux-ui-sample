@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import type { AccordionItemProps } from "./accordionItemData";
+import type { AccordionItemContent } from "./accordionItemData";
 import Image from "next/image";
 import styles from "./accordion.module.css";
 import { clsx } from "clsx";
@@ -9,7 +9,7 @@ export default function AccordionItem({
   slug = "defualt-slug",
   title = "Default Accordion Item Title",
   content = "Default accordion item content.",
-}: AccordionItemProps) {
+}: AccordionItemContent) {
 
   const [showContent, setShowContent] = useState(false);
   return (
