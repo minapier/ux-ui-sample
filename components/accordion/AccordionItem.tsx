@@ -5,6 +5,11 @@ import Image from "next/image";
 import styles from "./accordion.module.css";
 import { clsx } from "clsx";
 
+/**
+ * 
+ * @param {AccordionItemContent} { slug, title, content } - Accordion item content object. 
+ * @returns AccordionItem component with content displayed and interactivity.
+ */
 export default function AccordionItem({
   slug = "defualt-slug",
   title = "Default Accordion Item Title",

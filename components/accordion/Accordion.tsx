@@ -3,8 +3,12 @@ import type { AccordionItemContent, AccordionItemProps } from "./accordionItemDa
 import styles from "./accordion.module.css";
 import AccordionItem from "./AccordionItem";
 
+/**
+ * 
+ * @param {AccordionItemProps} items - Array of accordion item content objects.
+ * @returns Accordion component displaying AccordionItem components.
+ */
 export default function Accordion({ items }: AccordionItemProps) {
-
   return (
     <div className={styles.accordion}>
       <div className={styles.accordionItemSlot}>

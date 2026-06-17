@@ -1,13 +1,17 @@
+/* Accordion item content object */
 export interface AccordionItemContent {
   slug: string;
   title: string;
   content: string;
 };
 
+/* Accordion content object with an array of accordion item content objects. */
 export interface AccordionItemProps {
   items: AccordionItemContent[];
 }
 
+/**
+ * @description An object containing an items array of AccordionItemContent type objects. */ 
 export const accordionItemData: AccordionItemProps = {
   items: [
     {

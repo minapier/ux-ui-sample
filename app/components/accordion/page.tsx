@@ -4,11 +4,10 @@ import {
   AccordionItemContent,
   accordionItemData,
 } from "@/components/accordion/accordionItemData";
-import styles from "../components/css/classes.css";
 
 export default function AccordionPage() {
+  /* accordionItems is the array of accordion item content objects. */
   const accordionItems: AccordionItemContent[] = accordionItemData.items;
-  console.log(accordionItemData);
   return (
     <div>
       <main>
