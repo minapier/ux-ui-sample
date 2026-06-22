@@ -11,18 +11,18 @@ export default function FormPage() {
         <div>
           <h1 className="h3">Form component</h1>
           <div style={{maxWidth: 400}}>
-            <FormComponent submitLabel="Whatever">
+            <FormComponent submitLabel="Contact Us">
               <InputField
-                fieldID="TextField"
-                fieldLabel="Text Field"
-                fieldName="TextField"
+                fieldID="NameField"
+                fieldLabel="Enter name"
+                fieldName="NameField"
                 fieldType="text"
-                fieldPlaceholder="Placeholder Text"
+                fieldPlaceholder="Enter a name"
                 required={true}
               />
               <InputField
                 fieldID="NumberField"
-                fieldLabel="Number Field"
+                fieldLabel="Enter a number"
                 fieldName="NumberField"
                 fieldType="number"
                 fieldPlaceholder="Enter a number only"
