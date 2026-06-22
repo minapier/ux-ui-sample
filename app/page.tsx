@@ -10,10 +10,11 @@ export default function Home() {
         <div className="vertical-center">
           <h1 className="h3">RSD Style Design mockup</h1>
           <p>
-            This is a microsite for the design system of the Ria Scureman Designs
-            site I developed in Webflow. The components were imported from
-            Webflow into this Next.js site, and design tokens were imported from Figma. This is primarily to show my skills
-            as a React/Next.js and UX/UI developer.
+            This is a microsite for the design system of the Ria Scureman
+            Designs site I developed in Webflow. The components were imported
+            from Webflow into this Next.js site, and design tokens were imported
+            from Figma. This is primarily to show my skills as a React/Next.js
+            and UX/UI developer.
           </p>
           <Button
             ctaLink={{ href: "https://www.riascureman.com", target: "_blank" }}
@@ -42,13 +43,29 @@ export default function Home() {
       <div>
         <h2 className="h4">Components</h2>
         <p>
+          <Link href="/components/accordion" aria-label="Accordion component">
+            Accordion
+          </Link>
+        </p>
+        <p>
           <Link href="/components/button" aria-label="Button component">
             Button
           </Link>
         </p>
         <p>
-          <Link href="/components/accordion" aria-label="Accordion component">
-            Accordion
+          <Link
+            href="/components/forms"
+            aria-label="Form component"
+          >
+           Form
+          </Link>
+        </p>
+        <p>
+          <Link
+            href="/components/forms/input"
+            aria-label="Input field component"
+          >
+            Input Field
           </Link>
         </p>
       </div>

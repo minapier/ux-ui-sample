@@ -18,7 +18,7 @@
   --colors-background-bg-color-secondary: #f0e5ca;
   --colors-background-bg-color-brand-primary: #3e963b;
   --colors-background-bg-color-brand-secondary: #b72025;
-  --colors-foreground-fg-color-primary: #100c05;
+  --colors-foreground-fg-color-primary: #57104a;
   --colors-foreground-fg-color-secondary: #201909;
   --colors-foreground-fg-color-brand-primary: #3e963b;
   --colors-foreground-fg-color-brand-secondary: #b72025;
@@ -40,6 +40,7 @@
   --colors-brand-neutral-dark-gray: #2f292eff;
   --colors-brand-neutral-lightest-gray: #f5faffff;
   --colors-brand-neutral-light-gray: #dae5eeff;
+  --colors-brand-neutral-medium-gray: #807e85;
   --colors-brand-neutral-light: #f0e5ca;
   --colors-brand-neutral-med: #201909;
   --colors-brand-neutral-dark: #100c05;
@@ -152,6 +153,7 @@
   --spacing-440-1-760px: 1760;
   --spacing-480-1-920px: 1920;
   --radius-none: 0px;
+  --radius-xxs: 0.375rem;
   --radius-xs: 12px;
   --radius-small: 24px;
   --radius-large: 120px;
@@ -301,6 +303,10 @@ p {
 
 a {
   font: var(--typography-tags-p);
+}
+
+label {
+  margin: 0;
 }
 
 * {
