@@ -7,4 +7,3 @@ The site is deployed here: https://rsd-style-design.netlify.app
 Original RSD site here: https://www.riascureman.com 
 
 [Temporary Storybook site](https://5958cd764dcd4ad30808168cd6fd2c97.share.chromatic.com/).
-test dev change
