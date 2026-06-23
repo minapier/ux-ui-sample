@@ -30,7 +30,7 @@ export default function FormPage() {
               />
               <InputField
                 fieldID="EmailField"
-                fieldLabel="Email"
+                fieldLabel="Enter email"
                 fieldName="EmailField"
                 fieldType="email"
                 fieldPlaceholder="Enter email"
