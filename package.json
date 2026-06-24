@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_8c814946b4e61d6"
   },
   "dependencies": {
     "clsx": "^2.1.1",
