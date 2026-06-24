@@ -4,7 +4,7 @@ import InputField from "./Input";
 import { expect } from "storybook/test";
 
 const meta = {
-  title: "RSD Input Field",
+  title: "Input Field",
   component: InputField,
   parameters: {
     layout: "centered",

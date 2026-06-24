@@ -2,7 +2,7 @@ import type { Meta } from "@storybook/nextjs-vite";
 import Accordion from "./Accordion";
 
 const meta = {
-  title: "RSD Accordion",
+  title: "Accordion",
   component: Accordion,
   parameters: {
     layout: "centered",

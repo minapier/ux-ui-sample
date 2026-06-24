@@ -2,7 +2,7 @@ import type { Meta } from "@storybook/nextjs-vite";
 import Button from "./Button";
 
 const meta = {
-  title: "RSD Button",
+  title: "Button",
   component: Button,
   parameters: {
     layout: "centered",

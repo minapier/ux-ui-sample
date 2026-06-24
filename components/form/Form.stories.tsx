@@ -1,10 +1,11 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import FormComponent from "./Form";
 import InputField from "./input/Input";
+import TextArea from "./textarea/TextArea";
 import { expect } from "storybook/test";
 
 const meta = {
-  title: "RSD Form",
+  title: "Form",
   component: FormComponent,
   subcomponents: { InputField },
   parameters: {
@@ -44,6 +45,13 @@ export const Default: Story = {
         fieldPlaceholder="Enter email"
         required={true}
       />,
+      <TextArea
+        fieldID="Message"
+        fieldLabel="Your Message"
+        fieldName="Message"
+        fieldPlaceholder="Type your message here"
+        required={true}
+      />,
     ],
     submitLabel: "Contact Us",
   },
@@ -51,6 +59,10 @@ export const Default: Story = {
     await userEvent.type(canvas.getByText("Enter name"), "Michael Napier");
     await userEvent.type(canvas.getByText("Enter a number"), "123");
     await userEvent.type(canvas.getByText("Enter email"), "test@sample.com");
+    await userEvent.type(
+      canvas.getByText("Your Message"),
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim vitae velit et interdum. Nam ac mi lacus. Duis ac nibh ligula. Mauris pharetra massa ultrices, ullamcorper magna eu, fringilla tortor. Donec laoreet, magna sit amet gravida rhoncus, arcu elit finibus urna, vel auctor orci erat nec augue.",
+    );
     await userEvent.click(canvas.getByRole("button"));
     await expect(
       canvas.getByText("Form is submitted successfully! Thank you."),

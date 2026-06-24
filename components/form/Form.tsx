@@ -12,7 +12,7 @@ interface FormProps {
 }
 
 /**
- * The Form component is used to display a form with a submit button. Form input components (such as InputField) are included as this component's children.
+ * The Form component is used to display a form with a submit button. Form input components (such as InputField and TextArea) are included as this component's children.
  */
 export default function FormComponent({ submitLabel, children }: FormProps) {
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false);

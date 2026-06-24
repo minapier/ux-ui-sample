@@ -3,6 +3,7 @@ import Image from "next/image";
 import FormComponent from "../../../components/form/Form";
 import InputField from "@/components/form/input/Input";
 import styles from "../components/css/classes.css";
+import TextArea from "@/components/form/textarea/TextArea";
 
 export default function FormPage() {
   return (
@@ -10,7 +11,7 @@ export default function FormPage() {
       <main>
         <div>
           <h1 className="h3">Form component</h1>
-          <div style={{maxWidth: 400}}>
+          <div style={{ maxWidth: 400 }}>
             <FormComponent submitLabel="Contact Us">
               <InputField
                 fieldID="NameField"
@@ -34,6 +35,13 @@ export default function FormPage() {
                 fieldName="EmailField"
                 fieldType="email"
                 fieldPlaceholder="Enter email"
+                required={true}
+              />
+              <TextArea
+                fieldID="Message"
+                fieldLabel="Your Message"
+                fieldName="Message"
+                fieldPlaceholder="Type your message here"
                 required={true}
               />
             </FormComponent>
