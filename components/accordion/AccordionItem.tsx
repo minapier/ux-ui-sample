@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import type { AccordionItemContent } from "./accordionItemData";
+import type { AccordionItemContent } from "./Accordion";
 import Image from "next/image";
 import styles from "./accordion.module.css";
 import { clsx } from "clsx";

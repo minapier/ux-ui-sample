@@ -1,13 +1,9 @@
-// import styles from "./page.module.css";
 import Accordion from "../../../components/accordion/Accordion";
-import {
-  AccordionItemContent,
-  accordionItemData,
-} from "@/components/accordion/accordionItemData";
+import accordionContent from "./accordionContent.json"
 
 export default function AccordionPage() {
   /* accordionItems is the array of accordion item content objects. */
-  const accordionItems: AccordionItemContent[] = accordionItemData.items;
+  const accordionItems = accordionContent.items;
   return (
     <div>
       <main>
