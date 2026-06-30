@@ -1,5 +1,6 @@
 import type { Meta } from "@storybook/nextjs-vite";
 import Accordion from "./Accordion";
+import accordionData from "../../app/components/accordion/accordionContent.json"
 
 const meta = {
   title: "Accordion",
@@ -13,26 +14,5 @@ const meta = {
 export default meta;
 
 export const Default = {
-  args: {
-    items: [
-      {
-        slug: "accordion-item-1",
-        title: "Strategic web planning",
-        content:
-          "Clear project direction grounded in goals, priorities, constraints, and audience needs.",
-      },
-      {
-        slug: "accordion-item-2",
-        title: "Website and experience design",
-        content:
-          "High-quality pages, landing pages, and campaign experiences designed for performance and visibility.",
-      },
-      {
-        slug: "accordion-item-3",
-        title: "Design systems and visual standards",
-        content:
-          "System foundations, components, and guidelines that keep large teams aligned over time.",
-      },
-    ],
-  },
+  args: accordionData,
 };
